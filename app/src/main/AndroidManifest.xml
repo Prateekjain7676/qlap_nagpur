@@ -62,7 +62,9 @@
         <activity
             android:name=".Registration.Main_application.Driver.driver_navigation"
             android:label="@string/title_activity_driver_navigation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Registration.Main_application.Driver.Fragments.my_trip_driver.trip_driver_1" />
+        <activity android:name=".Registration.Main_application.Driver.Fragments.my_trip_driver.trip_driver_2"></activity>
     </application>
 
 </manifest>
