@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="PrivateResource">QLAP</string>
+    <string name="title_activity_main_application">main_application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="success_message_1">You have successfully registered. Your Metro Card Number is:</string>
+    <string name="success_message_2">Payments for your rides are done through your Metro Card Balance.</string>
+    <string name="success_message_3">Now, you can recharge your card through UPI enabled Digital Wallets! </string>
+    <string-array name="metro_station_list">
+        <item name="Kohat">Select your destination Metro Station</item>
+        <item name="Kohat">Kohat</item>
+        <item name="NSp">Netaji Subhash Place</item>
+        <item name="Rohini">Rohini</item>
+    </string-array>
+    <string name="title_activity_pick_up_point">Map</string>
+    <string-array name="mode_list">
+        <item name="Kohat">Select the mode you want to subscribe</item>
+        <item name="Kohat">Auto</item>
+        <item name="NSp">Rikshaw</item>
+        <item name="Rohini">Mini Bus</item>
+    </string-array>
+
+    <string-array name="vehicle_category">
+        <item name="Kohat">Enter your Vehicle Category</item>
+        <item name="Kohat">Auto</item>
+        <item name="NSp">E-Rikshaw</item>
+        <item name="Rohini">Mini Bus</item>
+        <item name="Rohini">Cab</item>
+
+    </string-array>
+    <string name="title_activity_driver_navigation">driver_navigation</string>
+    <string-array name="list">
+        <item name="Kohat">Select the Travel Type</item>
+        <item name="Kohat">First Mile(Reach a metro station from your location)</item>
+        <item name="NSp">Last Mile(Travel from metro station)</item>
+    </string-array>
+
+    <string-array name="duration">
+        <item>Select the duration of subscription</item>
+        <item name="Kohat">3 continues days</item>
+        <item name="Kohat">4 continues days</item>
+        <item name="NSp">5 continues days</item>
+    </string-array>
+
+    <string-array name="chose_timig">
+        <item name="Kohat">Please choose timing</item>
+        <item name="Kohat">6:15 PM</item>
+        <item name="NSp">6:30 PM</item>
+        <item name="NSp">6:45 PM</item>
+        <item name="NSp">7:00 PM</item>
+        <item name="NSp">7:15 PM</item>
+        <item name="NSp">7:30 PM</item>
+
+    </string-array>
+
+
+</resources>

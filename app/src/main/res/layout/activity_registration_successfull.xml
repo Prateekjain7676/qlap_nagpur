@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green">
+
+    <include layout="@layout/ini_toolbar"
+        android:id="@+id/toolbar"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/success"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gif"
+        android:layout_below="@+id/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gif">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/success_message_1"
+        android:id="@+id/str_msg1"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_below="@+id/gif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_metro_card"
+        android:text="12093827"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/str_msg1"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/success_message_2"
+        android:id="@+id/str_msg2"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_below="@+id/tv_metro_card"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/success_message_3"
+        android:id="@+id/str_msg3"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/str_msg2"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style_success"
+        android:layout_marginBottom="30dp"
+        android:text="Continue"
+        android:layout_margin="20dp"
+        android:id="@+id/btn_continue"
+        android:textColor="@color/green"/>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

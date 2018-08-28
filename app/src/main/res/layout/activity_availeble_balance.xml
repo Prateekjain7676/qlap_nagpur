@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration.Main_application.Rider.Fragments.MyCards.availeble_balance">
+
+    <include layout="@layout/main_toolbar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Card Balance"
+        android:textAlignment="center"
+        android:textSize="25dp"
+
+        android:textColor="@color/text_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="₹ 505"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:id="@+id/tv_amt"
+        android:textColor="@color/black"
+        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_margin="20dp"
+            android:text="Recharge Now"
+            android:id="@+id/btn_recharge"
+            android:textColor="@color/white"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rv_payment"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book_ride"
+            android:icon="@drawable/nav_1"
+            android:title="Book Ride" />
+        <item
+            android:id="@+id/nav_my_trip"
+            android:icon="@drawable/nav_4"
+            android:title="My Trips" />
+        <item
+            android:id="@+id/nav_my_cards"
+            android:icon="@drawable/nav_5"
+            android:title="My Cards" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/nav_3"
+            android:title="Account" />
+
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/nav_6"
+            android:title="Ride Subscription" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/nav_2"
+            android:title="Help" />
+
+
+    </group>
+
+
+</menu>

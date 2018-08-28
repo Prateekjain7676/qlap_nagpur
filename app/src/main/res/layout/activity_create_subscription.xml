@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration.Main_application.Rider.Fragments.Subscription.Create_subscription.Create_subscription">
+
+    <include layout="@layout/main_toolbar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_color"
+            android:text=""
+            android:textSize="25dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:entries="@array/list"
+            android:id="@+id/spn_Selection"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lay_route"
+            android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELECT ROUTE"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/text_color"
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/spn_route"
+            android:entries="@array/metro_station_list"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELECT ORIGIN LOCATION"
+            android:layout_marginStart="10dp"
+            android:id="@+id/tv_location"
+            android:textColor="@color/text_color"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_get_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_style"
+            android:text="Get location"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/button_style"
+        android:text="Next"
+        android:textColor="@color/white" />
+</RelativeLayout>
