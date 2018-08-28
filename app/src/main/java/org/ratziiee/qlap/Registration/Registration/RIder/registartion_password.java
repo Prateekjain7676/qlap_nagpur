@@ -64,8 +64,7 @@ public class registartion_password extends AppCompatActivity {
                     et_password.setError("Cannot be empty");
                 }
 
-                Intent i=new Intent(registartion_password.this,registration_successfull.class);
-                startActivity(i);
+
 
             }
         });

@@ -46,7 +46,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:gravity="center_vertical"
-                android:text="c-1938 rohini east new delhi"/>
+                android:text="23A HP Block,Pitampura,Delhi"/>
         </LinearLayout>
 
     </LinearLayout>

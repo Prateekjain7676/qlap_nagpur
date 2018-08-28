@@ -35,14 +35,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select your Destination Metro Station"
+            android:text="Select your Origin Metro Station"
             android:textColor="@color/black"
             android:textSize="18dp"/>
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:entries="@array/metro_station_list"/>
+        android:entries="@array/metro_station_list_last"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="20dp"/>
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18dp"
-            android:text="Enter your Current Location"
+            android:text="Enter your Location"
             android:textColor="@color/black"
             android:id="@+id/tv_address"/>
 
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
             android:layout_marginTop="100dp"
-            android:id="@+id/tv_subscription"
+            android:id="@+id/tv_subs"
             android:text="Travel Frequently along this route? Subscribe to this route and get Discount"/>
 
     </LinearLayout>

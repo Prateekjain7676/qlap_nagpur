@@ -81,8 +81,7 @@ public class Registration_driver extends AppCompatActivity {
             {
                 et_name.setError("Cannot be empty");
             }
-            Intent i=new Intent(Registration_driver.this, registartion_password_driver.class);
-            startActivity(i);
+
         });
 
     }

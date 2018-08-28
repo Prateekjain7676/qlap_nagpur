@@ -57,5 +57,12 @@
 
     </string-array>
 
+    <string-array name="metro_station_list_last">
+        <item name="Kohat">Select your Origin Metro Station</item>
+        <item name="Kohat">Kohat</item>
+        <item name="NSp">Netaji Subhash Place</item>
+        <item name="Rohini">Rohini</item>
+    </string-array>
+
 
 </resources>

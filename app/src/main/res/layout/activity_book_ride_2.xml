@@ -45,7 +45,7 @@
                     android:textStyle="bold"
                     android:textColor="@color/black"
                     android:gravity="center_vertical"
-                    android:text="c-1938 rohini east new delhi"/>
+                    android:text="23A HP Block,Pitampura,Delhi"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -63,41 +63,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:weightSum="5"
         android:layout_centerInParent="true"
         android:id="@+id/lay">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_margin="2dp"
-            android:background="@drawable/minibus"/>
+            android:id="@+id/btn_auto"
+            android:background="@drawable/unselect_auto"/>
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_margin="2dp"
-            android:background="@drawable/taxi"/>
+            android:id="@+id/btn_rikshaw"
+            android:background="@drawable/unselect_rikshaw" />
         <Button
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_margin="2dp"
-            android:background="@drawable/smart_book"/>
+            android:id="@+id/btn_smart"
+            android:background="@drawable/unselect_smart"/>
         <Button
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_margin="2dp"
-            android:background="@drawable/erickshaw" />
+            android:id="@+id/btn_bus"
+            android:background="@drawable/unselect_bus"/>
+
         <Button
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_margin="2dp"
-            android:background="@drawable/auto"/>
+            android:id="@+id/btn_taxi"
+            android:background="@drawable/unselect_taxi"/>
+
+
+
     </LinearLayout>
 
 

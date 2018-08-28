@@ -30,14 +30,16 @@ public class book_ride extends Fragment {
             public void onClick(View view) {
                Intent i=new Intent(getActivity(),Book_ride_1.class);
                startActivity(i);
-                Toast.makeText(getActivity(), "1st", Toast.LENGTH_SHORT).show();
+
             }
         });
 
         iv_travel_from_metro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "2nd", Toast.LENGTH_SHORT).show();
+
+                Intent i=new Intent(getActivity(),Book_ride_last_mile.class);
+                startActivity(i);
             }
         });
         return v;

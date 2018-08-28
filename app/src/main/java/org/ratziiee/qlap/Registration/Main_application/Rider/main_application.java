@@ -19,7 +19,9 @@ import android.widget.FrameLayout;
 
 import org.ratziiee.qlap.R;
 import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.Book_ride.book_ride;
+import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.Help.help_fragment;
 import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.MyCards.available_balance;
+import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.MyTrips.my_trips;
 import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.Profile.profile_rider;
 import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.Subscription.subscription;
 
@@ -59,27 +61,7 @@ public class main_application extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-       // getMenuInflater().inflate(R.menu.main_application, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -94,7 +76,7 @@ public class main_application extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_my_trip)
         {
-
+            transition(new my_trips());
         } else if (id == R.id.nav_my_cards)
         {
             transition(new available_balance());
@@ -105,7 +87,7 @@ public class main_application extends AppCompatActivity
             transition(new profile_rider());
         } else if (id == R.id.nav_help)
         {
-
+            transition(new help_fragment());
         }
         else if (id == R.id.nav_subscription)
         {

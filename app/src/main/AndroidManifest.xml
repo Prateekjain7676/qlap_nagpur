@@ -8,12 +8,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Registration.Registration.First_Screen">
+        <activity android:name=".Registration.Main_application.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -64,7 +65,10 @@
             android:label="@string/title_activity_driver_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Registration.Main_application.Driver.Fragments.my_trip_driver.trip_driver_1" />
-        <activity android:name=".Registration.Main_application.Driver.Fragments.my_trip_driver.trip_driver_2"></activity>
+        <activity android:name=".Registration.Main_application.Driver.Fragments.my_trip_driver.trip_driver_2" />
+        <activity android:name=".Registration.Registration.First_Screen" />
+        <activity android:name=".Registration.Main_application.Rider.Fragments.Book_ride.Book_ride_last_mile" />
+        <activity android:name=".Registration.Main_application.Rider.Fragments.Subscription.Subscription_activity"></activity>
     </application>
 
 </manifest>

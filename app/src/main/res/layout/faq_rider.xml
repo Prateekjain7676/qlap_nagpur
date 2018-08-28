@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. How to book a ride?"
+            android:textSize="20dp"
+            android:textColor="@color/text_color"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose an option from “Reach a Metro Station ‘’ and “Travel from Metro Station’’. "
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you choose “reach a metro station’’ then select destination metro station and your current location."
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After selecting your origin and destination point, select a mode e.g. Auto Rickshaw, Taxi, E Rickshaw.  View pickup stop and book the ride. "
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To view how to use the application, view the video here "
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. How can I check the total fare for my ride?"
+                android:textSize="20dp"
+                android:textColor="@color/text_color"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose the vehicle mode to view the estimated Total Fare for your ride."
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. How to use Rider ID to start my ride?"
+                android:textSize="20dp"
+                android:textColor="@color/text_color"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Once your booking is confirmed, you will receive a Rider ID on your phone to start your trip. You will need to share the Rider ID with the driver once you have boarded the vehicle to start your trip. "
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. How can I subscribe the route?"
+                android:textSize="20dp"
+                android:textColor="@color/text_color"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select subscription from the hamburger. To create new subscription, choose ‘’create new subscription’’, Select your route, mode, timing and Duration of subscription. "
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Can I make payment in cash also?"
+                android:textSize="20dp"
+                android:textColor="@color/text_color"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No, you cannot make payment in cash. Payment will only be made through metro card. You can recharge metro card in cash at metro station."
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. How can I recharge my metro card?"
+                android:textSize="20dp"
+                android:textColor="@color/text_color"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can recharge your metro through authorized digital wallet e.g. paytm, BHIM etc. You can also recharge metro card by cash at metro station. "
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
