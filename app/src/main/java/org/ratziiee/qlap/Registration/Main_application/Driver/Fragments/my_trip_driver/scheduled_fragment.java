@@ -31,7 +31,7 @@ public class scheduled_fragment extends Fragment {
         init_list();
         RecyclerView.LayoutManager manager=new LinearLayoutManager(getActivity());
         rv_my_trip.setLayoutManager(manager);
-        adapter_my_trip adapter=new adapter_my_trip(getActivity(),list);
+        adapter_my_trip adapter=new adapter_my_trip(getActivity(),list,0);
         rv_my_trip.addItemDecoration(new DividerItemDecoration(rv_my_trip.getContext(), DividerItemDecoration.VERTICAL));
         rv_my_trip.setAdapter(adapter);
         return v;

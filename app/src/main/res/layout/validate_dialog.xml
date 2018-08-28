@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/dialog_box"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter 8 Digit Ride ID"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/tv_ques"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Here"
+        android:layout_below="@+id/tv_ques"
+        android:inputType="number"
+        android:maxLength="8"
+        android:id="@+id/et_ride_id"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validate"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:id="@+id/btn_validate"
+        android:layout_below="@+id/et_ride_id"
+        />
+</RelativeLayout>

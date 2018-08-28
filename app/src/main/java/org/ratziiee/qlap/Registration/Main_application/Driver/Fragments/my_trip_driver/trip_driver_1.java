@@ -10,6 +10,8 @@ import android.widget.TextView;
 import org.ratziiee.qlap.R;
 import org.ratziiee.qlap.Registration.Utils.utils;
 
+import static android.view.View.GONE;
+
 public class trip_driver_1 extends AppCompatActivity {
 
     Button btn_start_trip;
@@ -31,5 +33,13 @@ public class trip_driver_1 extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
+        int unique_id=getIntent().getIntExtra("id",0);
+        if(unique_id==0)
+        {
+            btn_start_trip.setVisibility(GONE);
+
+        }
     }
 }

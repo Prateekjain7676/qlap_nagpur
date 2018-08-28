@@ -5,5 +5,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Registration.Main_application.Driver.Fragments.my_trip_driver.trip_driver_2">
+    <include layout="@layout/main_toolbar"
+        android:id="@+id/toolbar"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/toolbar">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="West Enclave Stop"
+        android:textColor="@color/text_color"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/tv_top"/>
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox_cameraTargetLat="28.7149"
+        mapbox_cameraTargetLng="77.1154"
+        mapbox_styleUrl="mapbox://styles/mapbox/streets-v10"
+        mapbox_cameraZoom="11"
+        android:layout_below="@+id/tv_top"
+        android:layout_above="@+id/lay_button"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay_button"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style"
+            android:layout_margin="10dp"
+            android:text="Validate Rider"
+            android:id="@+id/btn_validate_rider"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style_red"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:text="End Trip"
+            android:id="@+id/btn_end_trip"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can validate rider and also ent the trip"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</RelativeLayout>
+
+
 
 </RelativeLayout>
