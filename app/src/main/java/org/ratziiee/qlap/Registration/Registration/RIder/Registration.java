@@ -40,44 +40,44 @@ public class Registration extends AppCompatActivity {
         btn_save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(et_name.getText().length()>0)
-                {
-                    if(et_mobile.getText().length()==10)
-                    {
-                        if(et_email.getText().length()>0)
-                        {
-                         if(et_metro_card.getText().length()==8)
-                         {
-                             if(et_address.getText().length()>0)
-                             {
+//                if(et_name.getText().length()>0)
+//                {
+//                    if(et_mobile.getText().length()==10)
+//                    {
+//                        if(et_email.getText().length()>0)
+//                        {
+//                         if(et_metro_card.getText().length()==8)
+//                         {
+//                             if(et_address.getText().length()>0)
+//                             {
                                  Intent i=new Intent(Registration.this, registartion_password.class);
                                  startActivity(i);
-                             }
-                             else
-                             {
-                                 et_address.setError("Cannot be empty");
-                             }
-                         }
-                         else
-                         {
-                             et_metro_card.setError("Invalid Metro Card");
-                         }
-                        }
-                        else
-                        {
-                            et_email.setError("Cannot be empty");
-                        }
-                    }
-                    else
-                    {
-                        et_mobile.setError("Invalid Mobile Number");
-                    }
-                }
-                else
-                {
-                    et_name.setError("Cannot be emptyx");
-                }
-
+//                             }
+//                             else
+//                             {
+//                                 et_address.setError("Cannot be empty");
+//                             }
+//                         }
+//                         else
+//                         {
+//                             et_metro_card.setError("Invalid Metro Card");
+//                         }
+//                        }
+//                        else
+//                        {
+//                            et_email.setError("Cannot be empty");
+//                        }
+//                    }
+//                    else
+//                    {
+//                        et_mobile.setError("Invalid Mobile Number");
+//                    }
+//                }
+//                else
+//                {
+//                    et_name.setError("Cannot be emptyx");
+//                }
+//
             }
         });
 

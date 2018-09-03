@@ -172,7 +172,6 @@ public class Book_ride_2 extends AppCompatActivity {
                 Intent i=new Intent(Book_ride_2.this,Book_ride_3.class);
                 startActivity(i);
 
-
             }
         });
 

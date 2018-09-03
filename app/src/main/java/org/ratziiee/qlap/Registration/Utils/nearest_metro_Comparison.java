@@ -13,7 +13,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class nearest_metro_Comparison {
 
     ArrayList<model_station_details> all_details;
-    ArrayList<Double> return_values;
     Context context;
     Location current_location;
     double distance_in_meters;
@@ -25,12 +24,11 @@ public class nearest_metro_Comparison {
         this.current_location=current_location;
         this.distance_in_meters=radius;
 
-
     }
 
     public ArrayList<Double> return_values()
     {
-        return_values=new ArrayList<>();
+        ArrayList<Double> return_values=new ArrayList<>();
         ArrayList<Location> all_loc=new ArrayList<>();
 
         for(model_station_details m:all_details)
@@ -45,11 +43,9 @@ public class nearest_metro_Comparison {
         for(Location loc:all_loc)
         {
             double distance_in_mtr=current_location.distanceTo(loc);
-            if(distance_in_mtr<=2000)
+            if(distance_in_mtr<=4000)
             {
-                return_values.add(distance_in_meters);
-                Log.d("nearest_metro", "return_values: ");
-
+                return_values.add(distance_in_mtr);
             }
         }
 

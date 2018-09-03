@@ -23,8 +23,6 @@ import org.ratziiee.qlap.Registration.Utils.nearest_metro_Comparison;
 
 import java.util.ArrayList;
 
-import timber.log.Timber;
-
 public class Splash extends AppCompatActivity {
     
     ArrayList<model_station_details> list;
@@ -166,18 +164,15 @@ public class Splash extends AppCompatActivity {
         Location temp_loc=new Location(LocationManager.GPS_PROVIDER);
         temp_loc.setLatitude(Double.valueOf("28.709603100000002"));
         temp_loc.setLongitude(Double.valueOf("77.1227114"));
-        nearest_metro_Comparison nearest=new nearest_metro_Comparison(list,this,temp_loc,2000);
+        nearest_metro_Comparison nearest=new nearest_metro_Comparison(list,this,temp_loc,3000);
 
+        ArrayList<Double> reqd = nearest.return_values();
 
-        for(int i=0;i<nearest.return_values().size();i++)
+        for(int i=0;i<reqd.size();i++)
         {
-            Log.d("check", "comparison_nearest_station: "+nearest.return_values().get(i));
+            Log.e("check","Stations: "+reqd.get(i));
         }
     }
 
-
-
-    
-    
 
 }

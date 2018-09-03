@@ -20,14 +20,12 @@
         android:textSize="20dp"
         android:textAlignment="center"
         android:id="@+id/tv_top"/>
-    <com.mapbox.mapboxsdk.maps.MapView
-        android:id="@+id/mapView"
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        mapbox_cameraTargetLat="28.7149"
-        mapbox_cameraTargetLng="77.1154"
-        mapbox_styleUrl="mapbox://styles/mapbox/streets-v10"
-        mapbox_cameraZoom="11"
         android:layout_below="@+id/tv_top"
         android:layout_above="@+id/lay_button"/>
 

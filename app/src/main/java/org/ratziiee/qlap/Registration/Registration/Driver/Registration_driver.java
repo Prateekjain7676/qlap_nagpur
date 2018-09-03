@@ -44,43 +44,43 @@ public class Registration_driver extends AppCompatActivity {
 
 
         btn_next.setOnClickListener(view -> {
-            if(et_name.getText().length()>0)
-            {
-                if(et_mobile.getText().length()==10)
-                {
-                    if(et_email.getText().length()>0)
-                    {
-                     if(spn_vehicle_Category.getSelectedItemPosition()>0)
-                     {
-                         if(et_vehicle_no.getText().length()>0)
-                         {
+//            if(et_name.getText().length()>0)
+//            {
+//                if(et_mobile.getText().length()==10)
+//                {
+//                    if(et_email.getText().length()>0)
+//                    {
+//                     if(spn_vehicle_Category.getSelectedItemPosition()>0)
+//                     {
+//                         if(et_vehicle_no.getText().length()>0)
+//                         {
                              Intent i=new Intent(Registration_driver.this,registartion_password_driver.class);
                              startActivity(i);
-                         }
-                         else
-                         {
-                             et_vehicle_no.setError("Cannot be empty");
-                         }
-                     }
-                     else
-                     {
-                         Toast.makeText(Registration_driver.this, "Vehicle Category is mandatory...!!!", Toast.LENGTH_SHORT).show();
-                     }
-                    }
-                    else
-                    {
-                        et_email.setError("Cannot be empty");
-                    }
-                }
-                else
-                {
-                    et_mobile.setError("Invalid Mobile Number");
-                }
-            }
-            else
-            {
-                et_name.setError("Cannot be empty");
-            }
+//                         }
+//                         else
+//                         {
+//                             et_vehicle_no.setError("Cannot be empty");
+//                         }
+//                     }
+//                     else
+//                     {
+//                         Toast.makeText(Registration_driver.this, "Vehicle Category is mandatory...!!!", Toast.LENGTH_SHORT).show();
+//                     }
+//                    }
+//                    else
+//                    {
+//                        et_email.setError("Cannot be empty");
+//                    }
+//                }
+//                else
+//                {
+//                    et_mobile.setError("Invalid Mobile Number");
+//                }
+//            }
+//            else
+//            {
+//                et_name.setError("Cannot be empty");
+//            }
 
         });
 
