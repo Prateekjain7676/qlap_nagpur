@@ -20,20 +20,47 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:text="You have boarded the Auto Rickshaw."
-            android:textAlignment="center"/>
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="@color/text_color"
+            android:textStyle="bold"
+            android:text="Auto Rickshaw Ride in Progress"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:textSize="25dp"
+            android:textSize="14dp"
             android:textAlignment="center"
-            android:textColor="@color/text_color"
-            android:textStyle="bold"
+            android:textColor="@color/black"
             android:text="You will reach Kohat Enclave Metro Station by 6:40 PM"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="TRIP ID :"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="987654321"/>
+
+
+        </LinearLayout>
     </LinearLayout>
 
     <Button

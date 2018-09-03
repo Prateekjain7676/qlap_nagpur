@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,7 +31,7 @@ public class Pick_up_point_mapbox extends AppCompatActivity {
     private MapView mapView;
     Button btn_done;
     TextView tv_qr_code;
-    private AlertDialog b;
+    private AlertDialog b,b1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +72,13 @@ public class Pick_up_point_mapbox extends AppCompatActivity {
         toolbar_title.setText("Subscription Confirmation");
         utils utils=new utils();
         utils.change_status_bar_color(this,this);
+
+        tv_qr_code.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showChangeLangDialog(Pick_up_point_mapbox.this,Pick_up_point_mapbox.this);
+            }
+        });
     }
 
     @Override
@@ -115,23 +123,74 @@ public class Pick_up_point_mapbox extends AppCompatActivity {
         mapView.onSaveInstanceState(outState);
     }
 
-    public void showChangeLangDialog(final Context context, Activity activity, String DialogMessage, final int uniqueId) {
+    public void showChangeLangDialog(final Context context, Activity activity) {
 
         final AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
         LayoutInflater inflater = activity.getLayoutInflater();
         final View dialogView = inflater.inflate(R.layout.dialog_qr_code, null);
         dialogBuilder.setView(dialogView);
-        dialogBuilder.setCancelable(true);
-        final Button yes=(Button)dialogView.findViewById(R.id.btn_yes);
-        final Button no=(Button)dialogView.findViewById(R.id.btn_no);
-        TextView tv_dialog=(TextView)dialogView.findViewById(R.id.tv_dialog);
-        tv_dialog.setText(DialogMessage);
+        dialogBuilder.setCancelable(false);
+        ImageView iv_cross=dialogView.findViewById(R.id.iv_cross);
+        ImageView iv_qr=dialogView.findViewById(R.id.iv_qr);
+
+        iv_cross.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                b.dismiss();
+            }
+        });
+
+        iv_qr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showChangeLangDialog_1(Pick_up_point_mapbox.this,Pick_up_point_mapbox.this);
+            }
+        });
+
+
 
 
 
 
         b = dialogBuilder.create();
         b.show();
+
+    }
+
+    public void showChangeLangDialog_1(final Context context, Activity activity) {
+
+        final AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(context);
+        LayoutInflater inflater = activity.getLayoutInflater();
+        final View dialogView = inflater.inflate(R.layout.dialog_qr_code_success, null);
+        dialogBuilder.setView(dialogView);
+        dialogBuilder.setCancelable(false);
+        ImageView iv_cross=dialogView.findViewById(R.id.iv_cross);
+        Button btn_done=dialogView.findViewById(R.id.btn_done);
+
+
+
+        iv_cross.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                b1.dismiss();
+            }
+        });
+
+        btn_done.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Pick_up_point_mapbox.this,book_ride_5.class);
+                startActivity(i);
+            }
+        });
+
+
+
+
+
+
+        b1 = dialogBuilder.create();
+        b1.show();
 
     }
 }
