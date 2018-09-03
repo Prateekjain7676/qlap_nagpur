@@ -16,6 +16,7 @@ public class nearest_metro_Comparison {
     Context context;
     Location current_location;
     double distance_in_meters;
+    private static String TAG="nearest_metro_Comparison";
 
     public nearest_metro_Comparison(ArrayList<model_station_details> model, Context context, Location current_location,double radius)
     {
@@ -37,6 +38,7 @@ public class nearest_metro_Comparison {
             temp.setLatitude(Double.valueOf(m.getLatitude()));
             temp.setLongitude(Double.valueOf(m.getLongitude()));
 
+            Log.d(TAG, "return_values: ");
             all_loc.add(temp);
         }
 

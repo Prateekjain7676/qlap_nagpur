@@ -8,10 +8,15 @@
 
     <include layout="@layout/main_toolbar"
         android:id="@+id/toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_below="@+id/toolbar"
+
             android:layout_marginTop="30dp"
             android:orientation="horizontal"
             android:weightSum="2">
@@ -120,9 +125,100 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/rv_book_ride_2"
-
+        android:visibility="visible"
         android:layout_below="@+id/tv_view_pickup"/>
 
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/tv_view_pickup">
 
 
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/result_tabs"
+                android:background="@android:color/darker_gray"
+                app:tabTextColor="@color/black"
+                app:tabSelectedTextColor="@color/black"
+                app:tabIndicatorColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabMode="scrollable"/>
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_view_pickup"
+            android:id="@+id/lay_smart"
+            android:visibility="gone">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="Using Smart Book, the App automatically books the most cost effective and time efficient option"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="The fastest mode to reach your destination is Mini Bus which is 3 minutes away from your nearest pickup point"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/text_color"
+            android:textAlignment="center"
+            android:text="TRIP COST : ₹25 "/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="Smart Book"
+            android:id="@+id/btn_smart_book"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+        </ScrollView>
+
+
+
+</RelativeLayout>
 </RelativeLayout>
