@@ -27,6 +27,7 @@ public class Pick_up_point_mapbox extends AppCompatActivity implements OnMapRead
     private GoogleMap mMap;
     TextView tv_qr_code;
     private AlertDialog b,b1;
+    int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +46,7 @@ public class Pick_up_point_mapbox extends AppCompatActivity implements OnMapRead
             startActivity(i);
         });
 
-        int i=getIntent().getIntExtra("pick_up_subscription",0);
+         i=getIntent().getIntExtra("pick_up_subscription",0);
         if(i==1)
         {
             btn_done.setVisibility(View.GONE);
@@ -68,8 +69,18 @@ public class Pick_up_point_mapbox extends AppCompatActivity implements OnMapRead
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        mMap.addMarker(new MarkerOptions().position(new LatLng(28.7149,77.1154)));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.7149,77.1154),12.0f));
+        if(i==1)
+        {
+            mMap.addMarker(new MarkerOptions().position(new LatLng(28.7149, 77.1154)));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.7149, 77.1154), 12.0f));
+        }
+        else
+            {
+            mMap.addMarker(new MarkerOptions().position(new LatLng(28.7149, 77.1154)));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.7149, 77.1154), 12.0f));
+        }
+
+
     }
 
     public void showChangeLangDialog(final Context context, Activity activity) {

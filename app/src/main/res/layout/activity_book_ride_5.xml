@@ -15,7 +15,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
         android:layout_marginTop="20dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/lay_main">
 
         <TextView
             android:layout_width="match_parent"
@@ -32,7 +33,7 @@
             android:textSize="14dp"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:text="You will reach Kohat Enclave Metro Station by 6:40 PM"/>
+            android:text="You will reach Rohini East Metro Station by 6:40 PM"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,11 +64,19 @@
         </LinearLayout>
     </LinearLayout>
 
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_main"
+        android:layout_above="@+id/btn_continue"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Continue"
+        android:text="End Trip"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:id="@+id/btn_continue"
