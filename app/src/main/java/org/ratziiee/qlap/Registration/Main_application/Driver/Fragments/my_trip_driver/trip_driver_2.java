@@ -14,23 +14,19 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
-import com.mapbox.mapboxsdk.Mapbox;
-import com.mapbox.mapboxsdk.annotations.MarkerOptions;
-import com.mapbox.mapboxsdk.camera.CameraUpdate;
-import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.maps.MapView;
-import com.mapbox.mapboxsdk.maps.MapboxMap;
-import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import org.ratziiee.qlap.R;
 import org.ratziiee.qlap.Registration.Main_application.Driver.driver_navigation;
-import org.ratziiee.qlap.Registration.Utils.AppConstants;
-import org.ratziiee.qlap.Registration.Utils.CustomDIlaog.DialogInterface;
 import org.ratziiee.qlap.Registration.Utils.utils;
 
-public class trip_driver_2 extends AppCompatActivity {
+public class trip_driver_2 extends AppCompatActivity implements OnMapReadyCallback{
 
-    private MapView mapView;
+    private GoogleMap mMap;
     private AlertDialog b;
     Button btn_end_trip,btn_validate_rider;
     @Override
@@ -45,20 +41,11 @@ public class trip_driver_2 extends AppCompatActivity {
         utils.change_status_bar_color(this,this);
         btn_end_trip=findViewById(R.id.btn_end_trip);
         btn_validate_rider=findViewById(R.id.btn_validate_rider);
-        Mapbox.getInstance(this, AppConstants.MAP_BOX_API);
-        mapView=findViewById(R.id.mapView);
-        mapView.onCreate(savedInstanceState);
 
-        mapView.getMapAsync(new OnMapReadyCallback() {
-            @Override
-            public void onMapReady(MapboxMap mapboxMap) {
-
-                mapboxMap.addMarker(new MarkerOptions().position(new LatLng(28.7149,77.1154)));
-                mapboxMap.moveCamera(com.mapbox.mapboxsdk.camera.CameraUpdateFactory.newLatLng(new LatLng(28.7149,77.1154)));
-
-
-            }
-        });
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
 
         btn_end_trip.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,47 +63,47 @@ public class trip_driver_2 extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        mapView.onStart();
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        mapView.onResume();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        mapView.onPause();
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        mapView.onStop();
-    }
-
-    @Override
-    public void onLowMemory() {
-        super.onLowMemory();
-        mapView.onLowMemory();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        mapView.onDestroy();
-    }
-
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        mapView.onSaveInstanceState(outState);
-    }
+//    @Override
+//    public void onStart() {
+//        super.onStart();
+//        mapView.onStart();
+//    }
+//
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        mapView.onResume();
+//    }
+//
+//    @Override
+//    public void onPause() {
+//        super.onPause();
+//        mapView.onPause();
+//    }
+//
+//    @Override
+//    public void onStop() {
+//        super.onStop();
+//        mapView.onStop();
+//    }
+//
+//    @Override
+//    public void onLowMemory() {
+//        super.onLowMemory();
+//        mapView.onLowMemory();
+//    }
+//
+//    @Override
+//    protected void onDestroy() {
+//        super.onDestroy();
+//        mapView.onDestroy();
+//    }
+//
+//    @Override
+//    protected void onSaveInstanceState(Bundle outState) {
+//        super.onSaveInstanceState(outState);
+//        mapView.onSaveInstanceState(outState);
+//    }
 
     public void showChangeLangDialog(final Context context, Activity activity, String DialogMessage, final int uniqueId) {
 
@@ -182,5 +169,12 @@ public class trip_driver_2 extends AppCompatActivity {
         b = dialogBuilder.create();
         b.show();
 
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+        mMap.addMarker(new MarkerOptions().position(new LatLng(28.7149,77.1154)));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.7149,77.1154),12.0f));
     }
 }

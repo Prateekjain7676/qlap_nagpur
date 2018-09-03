@@ -64,17 +64,26 @@
         </LinearLayout>
     </LinearLayout>
 
-    <com.mapbox.mapboxsdk.maps.MapView
-        android:id="@+id/mapView"
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        mapbox:mapbox_cameraTargetLat="28.7149"
-        mapbox:mapbox_cameraTargetLng="77.1154"
-        mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10"
-        mapbox:mapbox_cameraZoom="11"
-
         android:layout_below="@+id/lay_top"
         android:layout_above="@+id/btn_done"/>
+
+    <!---->
+    <!--<com.mapbox.mapboxsdk.maps.MapView-->
+        <!--android:id="@+id/mapView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--mapbox:mapbox_cameraTargetLat="28.7149"-->
+        <!--mapbox:mapbox_cameraTargetLng="77.1154"-->
+        <!--mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10"-->
+        <!--mapbox:mapbox_cameraZoom="11"-->
+
+        <!--android:layout_below="@+id/lay_top"-->
+        <!--android:layout_above="@+id/btn_done"/>-->
 
     <Button
         android:layout_width="match_parent"
