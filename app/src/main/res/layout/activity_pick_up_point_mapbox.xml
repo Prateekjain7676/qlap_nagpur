@@ -29,7 +29,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:weightSum="2"
+            android:weightSum="3"
             android:orientation="horizontal">
 
             <TextView
@@ -50,6 +50,15 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:text="987654321"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/text_color"
+                android:text="Show QR Code"
+                android:textAlignment="textEnd"
+                android:id="@+id/tv_qr_code"/>
 
 
         </LinearLayout>

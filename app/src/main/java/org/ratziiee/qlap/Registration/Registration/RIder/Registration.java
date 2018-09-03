@@ -78,6 +78,9 @@ public class Registration extends AppCompatActivity {
                     et_name.setError("Cannot be emptyx");
                 }
 
+                Intent i=new Intent(Registration.this, registartion_password.class);
+                startActivity(i);
+
             }
         });
 
