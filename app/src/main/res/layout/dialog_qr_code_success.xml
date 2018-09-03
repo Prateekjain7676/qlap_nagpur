@@ -30,19 +30,28 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/tv_ride_id"
-        android:text="Show this in the vehicle to authenticate your ride"
+        android:text="Your ride has been authenticated successfully."
         android:textAlignment="center"
         android:textColor="@color/black"
         />
 
 
-    <ImageView
-        android:id="@+id/iv_qr"
+    <pl.droidsonroids.gif.GifImageView
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_margin="10dp"
-        android:layout_below="@+id/tv_ride_data"
+        android:src="@drawable/success"
+        android:id="@+id/iv_qr"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/qr" />
+        android:layout_below="@+id/tv_ride_data"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:text="done"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/iv_qr"
+        android:id="@+id/btn_done"/>
 
 </RelativeLayout>
