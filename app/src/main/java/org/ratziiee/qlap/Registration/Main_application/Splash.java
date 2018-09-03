@@ -38,8 +38,8 @@ public class Splash extends AppCompatActivity {
         db.openDB();
         station_details();
 
+        //returns list of nearest stations
         comparison_nearest_station();
-
 
         if (Build.VERSION.SDK_INT >= 23)
         {
@@ -56,14 +56,10 @@ public class Splash extends AppCompatActivity {
                     finish();
                 }
             }, 2000);
-
         }
-
     }
 
     private void checkPermission(){
-
-
         TedPermission.with(this)
                 .setPermissionListener(new PermissionListener() {
                     @Override
@@ -86,7 +82,6 @@ public class Splash extends AppCompatActivity {
                 .setDeniedMessage("Unable to run app without these permission\n\nPlease turn on permissions at [Setting] > [Permission]")
                 .setPermissions(Manifest.permission.ACCESS_COARSE_LOCATION,Manifest.permission.ACCESS_FINE_LOCATION)
                 .check();
-
     }
     
     private void station_details()
@@ -159,20 +154,27 @@ public class Splash extends AppCompatActivity {
         db.AddMetroStationData(list);
     }
 
-    private void comparison_nearest_station()
+    public ArrayList<String> comparison_nearest_station()
     {
+        ArrayList<String> nearestStations = new ArrayList<>();
+
         Location temp_loc=new Location(LocationManager.GPS_PROVIDER);
         temp_loc.setLatitude(Double.valueOf("28.709603100000002"));
         temp_loc.setLongitude(Double.valueOf("77.1227114"));
         nearest_metro_Comparison nearest=new nearest_metro_Comparison(list,this,temp_loc,3000);
 
-        ArrayList<Double> reqd = nearest.return_values();
-
-        for(int i=0;i<reqd.size();i++)
-        {
-            Log.e("check","Stations: "+reqd.get(i));
+        ArrayList<Location> reqd = nearest.return_values();
+        ArrayList<model_station_details> stationDetails = db.getStationsDetails();
+        for(Location loc : reqd){
+            for(model_station_details station_detail : stationDetails){
+                if(String.valueOf(loc.getLatitude()).equals(station_detail.getLatitude()) &&
+                        String.valueOf(loc.getLongitude()).equals(station_detail.getLongitude())){
+                    Log.e("sta",station_detail.getStation_name());
+                    nearestStations.add(station_detail.getStation_name());
+                }
+            }
         }
+        return nearestStations;
     }
-
 
 }

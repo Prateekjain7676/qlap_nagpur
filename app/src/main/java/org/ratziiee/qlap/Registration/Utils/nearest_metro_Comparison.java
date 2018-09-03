@@ -27,9 +27,9 @@ public class nearest_metro_Comparison {
 
     }
 
-    public ArrayList<Double> return_values()
+    public ArrayList<Location> return_values()
     {
-        ArrayList<Double> return_values=new ArrayList<>();
+        ArrayList<Location> return_values=new ArrayList<>();
         ArrayList<Location> all_loc=new ArrayList<>();
 
         for(model_station_details m:all_details)
@@ -47,7 +47,7 @@ public class nearest_metro_Comparison {
             double distance_in_mtr=current_location.distanceTo(loc);
             if(distance_in_mtr<=4000)
             {
-                return_values.add(distance_in_mtr);
+                return_values.add(loc);
             }
         }
 

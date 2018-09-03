@@ -5,6 +5,18 @@ public class model_station_details {
     String station_name;
     String latitude;
     String longitude;
+    String flag;
+
+
+    public model_station_details() {
+    }
+
+    public model_station_details(String station_name, String latitude, String longitude, String flag) {
+        this.station_name = station_name;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.flag = flag;
+    }
 
     public String getStation_name() {
         return station_name;
@@ -38,5 +50,4 @@ public class model_station_details {
         this.flag = flag;
     }
 
-    String flag;
 }
