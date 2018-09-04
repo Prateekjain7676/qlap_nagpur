@@ -38,6 +38,8 @@ public class Book_ride_2 extends AppCompatActivity {
     Button btn_auto,btn_rikshaw,btn_smart,btn_bus,btn_taxi,btn_smart_book;
     CoordinatorLayout main_content;
     ScrollView lay_smart;
+    String destination_address="";
+    TextView tv_destination_address;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +50,10 @@ public class Book_ride_2 extends AppCompatActivity {
         toolbar_title.setText("Book Ride");
         utils utils=new utils();
         utils.change_status_bar_color(this,this);
+        tv_destination_address=findViewById(R.id.tv_destination_address);
+
+        destination_address=getIntent().getStringExtra("selected_station");
+        tv_destination_address.setText(destination_address);
 
         main_content=findViewById(R.id.main_content);
         ViewPager viewPager = (ViewPager)findViewById(R.id.viewpager);
@@ -98,7 +104,7 @@ public class Book_ride_2 extends AppCompatActivity {
         m4.setTime_2("7.00 P.M");
         list.add(m4);
 
-        Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list);
+        Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list,destination_address);
         rv_book_ride_2.setAdapter(adapter);
     }
     private void initlist_rickshaw()
@@ -124,7 +130,7 @@ public class Book_ride_2 extends AppCompatActivity {
         m4.setTime_2("7.20 P.M");
         list.add(m4);
 
-        Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list);
+        Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list,destination_address);
         rv_book_ride_2.setAdapter(adapter);
     }
 
@@ -153,7 +159,7 @@ public class Book_ride_2 extends AppCompatActivity {
         m4.setTime_2("8.30 P.M");
         list.add(m4);
 
-        Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list);
+        Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list,destination_address);
         rv_book_ride_2.setAdapter(adapter);
     }
 

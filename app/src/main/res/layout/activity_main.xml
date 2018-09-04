@@ -50,6 +50,17 @@
             android:text="Register As Driver"
             android:id="@+id/btn_driver"
             android:textColor="@android:color/white"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="Admin Panel"
+            android:id="@+id/btn_admin"
+            android:textColor="@android:color/white"/>
     </LinearLayout>
 
 

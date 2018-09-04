@@ -37,5 +37,7 @@ dependencies {
     implementation "com.google.android.gms:play-services-location:15.0.1"
     implementation 'com.github.ome450901:SimpleRatingBar:1.4.2'
     implementation 'gun0912.ted:tedpermission:2.1.1'
+    implementation 'com.google.maps.android:android-maps-utils:0.5+'
+
 
 }

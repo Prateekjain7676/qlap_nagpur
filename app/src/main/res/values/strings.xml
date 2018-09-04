@@ -11,7 +11,7 @@
     <string name="success_message_2">Payments for your rides are done through your Metro Card Balance.</string>
     <string name="success_message_3">Now, you can recharge your card through UPI enabled Digital Wallets! </string>
     <string-array name="metro_station_list">
-        <item name="Kohat">Select your destination Metro Station</item>
+        <item name="Kohat">Select Select</item>
         <item name="Kohat">Kohat</item>
         <item name="NSp">Netaji Subhash Place</item>
         <item name="Rohini">Rohini</item>
@@ -63,5 +63,41 @@
         <item name="NSp">Netaji Subhash Place</item>
         <item name="Rohini">Rohini</item>
     </string-array>
+    <string name="title_activity_choose_on_map_bookride1">Map</string>
+    <string name="title_activity_admin">Admin</string>
+
+    <string-array name="default_params">
+        <item name="select">Please Select</item>
+        <item name="ride_taken">Rides Taken</item>
+        <item name="earn">Earning/Km</item>
+        <item name="cost">Cost/Km</item>
+        <item name="rider">Rider Rating</item>
+
+    </string-array>
+
+    <string-array name="frag_analysis">
+        <item>Please Select...</item>
+        <item>Heat map of preference of modes</item>
+        <item>Income wise mode selection</item>
+        <item>Mode wise sensitivity analysis</item>
+        <item>Tisba Analysis</item>
+    </string-array>
+    <string name="title_activity_heat_map">Map</string>
+
+    <string-array name="metro_lines">
+        <item>Please Select</item>
+        <item>Red Line</item>
+        <item>Green Line</item>
+        <item>Voilet Line</item>
+        <item>Yellow Line</item>
+    </string-array>
+
+    <string-array name="trip_type">
+
+        <item>Please select </item>
+        <item>First Mile</item>
+        <item>Last Mile</item>
+    </string-array>
+    <string name="title_activity_tisba_analysis">Map</string>
 
 </resources>

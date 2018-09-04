@@ -32,34 +32,55 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"/>
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select your Destination Metro Station"
-            android:textColor="@color/black"
-            android:textSize="18dp"/>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Enter your Ride Origin Location"
+                android:textColor="@color/black"
+                android:id="@+id/tv_address"/>
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:entries="@array/metro_station_list"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color"
+                android:id="@+id/btn_maps"
+                android:text="Chose on Map"/>
+        </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="20dp"/>
 
-        <TextView
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18dp"
-            android:text="Enter your Current Location"
-            android:textColor="@color/black"
-            android:id="@+id/tv_address"/>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select your Destination Metro Station"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/text_color"
-        android:text="Get Location"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/spn_destination_metro" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_nearest_station"
+                android:text="Suggest Me based on my current location"/>
+        </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -80,7 +101,7 @@
         android:layout_marginBottom="30dp"
         android:layout_marginEnd="10dp"
         android:background="@drawable/button_style"
-        android:text="Save"
+        android:text="Next"
         android:textColor="@color/white" />
 
 

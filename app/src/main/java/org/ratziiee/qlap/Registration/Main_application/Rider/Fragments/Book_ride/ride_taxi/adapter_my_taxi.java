@@ -21,11 +21,11 @@ import java.util.ArrayList;
 
 public class adapter_my_taxi extends RecyclerView.Adapter<adapter_my_taxi.MyViewHolder>
 {
-    Context context;
-    ArrayList<model_my_trip> list;
-    int unique_id=0;
+    private Context context;
+    private ArrayList<model_taxi> list;
+    private int unique_id=0;
 
-    public adapter_my_taxi(Context context, ArrayList<model_my_trip> list, int unique)
+    public adapter_my_taxi(Context context, ArrayList<model_taxi> list, int unique)
     {
         this.context=context;
         this.list=list;
@@ -37,7 +37,7 @@ public class adapter_my_taxi extends RecyclerView.Adapter<adapter_my_taxi.MyView
     @Override
     public adapter_my_taxi.MyViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
 
-        View v= LayoutInflater.from(context).inflate(R.layout.adapter_my_trip,viewGroup,false);
+        View v= LayoutInflater.from(context).inflate(R.layout.adapter_taxi,viewGroup,false);
 
         return new MyViewHolder(v);
     }
@@ -45,10 +45,12 @@ public class adapter_my_taxi extends RecyclerView.Adapter<adapter_my_taxi.MyView
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder h, int i) {
 
-        model_my_trip m=list.get(i);
-        h.tv_station_name.setText(m.getStation_name());
-        h.tv_date.setText(m.getDate());
-        h.tv_time.setText(m.getTime());
+        model_taxi m=list.get(i);
+        h.tv_type.setText(m.getCab_type());
+        h.tv_arrival_time.setText(m.getArrival_time());
+        h.tv_price.setText(m.getFare());
+        h.tv_time_reach.setText(m.getReach_by_time());
+
 
 
         h.lay_main.setOnClickListener(new View.OnClickListener() {
@@ -75,15 +77,17 @@ public class adapter_my_taxi extends RecyclerView.Adapter<adapter_my_taxi.MyView
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tv_station_name,tv_time,tv_date;
+        TextView tv_type,tv_arrival_time,tv_price,tv_time_reach;
         LinearLayout lay_main;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            tv_station_name=itemView.findViewById(R.id.tv_station_name);
-            tv_time=itemView.findViewById(R.id.tv_time);
-            tv_date=itemView.findViewById(R.id.tv_date);
+
             lay_main=itemView.findViewById(R.id.lay_main);
+            tv_type=itemView.findViewById(R.id.tv_type);
+            tv_arrival_time=itemView.findViewById(R.id.tv_time);
+            tv_price=itemView.findViewById(R.id.tv_price);
+            tv_time_reach=itemView.findViewById(R.id.tv_time_reach);
 
         }
     }

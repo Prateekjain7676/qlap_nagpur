@@ -2,13 +2,10 @@ package org.ratziiee.qlap.Registration.Main_application;
 
 import android.Manifest;
 import android.content.Intent;
-import android.location.Location;
-import android.location.LocationManager;
 import android.os.Build;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.gun0912.tedpermission.PermissionListener;
@@ -19,7 +16,7 @@ import org.ratziiee.qlap.R;
 import org.ratziiee.qlap.Registration.Main_application.Database.models.model_station_details;
 import org.ratziiee.qlap.Registration.Main_application.Database.qlap_database;
 import org.ratziiee.qlap.Registration.Registration.First_Screen;
-import org.ratziiee.qlap.Registration.Utils.nearest_metro_Comparison;
+import org.ratziiee.qlap.Registration.Main_application.Admin.Fragments.analysis.heatMap;
 
 import java.util.ArrayList;
 
@@ -39,7 +36,6 @@ public class Splash extends AppCompatActivity {
         station_details();
 
         //returns list of nearest stations
-        comparison_nearest_station();
 
         if (Build.VERSION.SDK_INT >= 23)
         {
@@ -154,27 +150,6 @@ public class Splash extends AppCompatActivity {
         db.AddMetroStationData(list);
     }
 
-    public ArrayList<String> comparison_nearest_station()
-    {
-        ArrayList<String> nearestStations = new ArrayList<>();
 
-        Location temp_loc=new Location(LocationManager.GPS_PROVIDER);
-        temp_loc.setLatitude(Double.valueOf("28.709603100000002"));
-        temp_loc.setLongitude(Double.valueOf("77.1227114"));
-        nearest_metro_Comparison nearest=new nearest_metro_Comparison(list,this,temp_loc,3000);
-
-        ArrayList<Location> reqd = nearest.return_values();
-        ArrayList<model_station_details> stationDetails = db.getStationsDetails();
-        for(Location loc : reqd){
-            for(model_station_details station_detail : stationDetails){
-                if(String.valueOf(loc.getLatitude()).equals(station_detail.getLatitude()) &&
-                        String.valueOf(loc.getLongitude()).equals(station_detail.getLongitude())){
-                    Log.e("sta",station_detail.getStation_name());
-                    nearestStations.add(station_detail.getStation_name());
-                }
-            }
-        }
-        return nearestStations;
-    }
 
 }

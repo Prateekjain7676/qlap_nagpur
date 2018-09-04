@@ -13,7 +13,7 @@ import org.ratziiee.qlap.Registration.Utils.utils;
 public class Book_ride_3 extends AppCompatActivity {
 
     Button btn_book;
-    TextView tv_view_on_map;
+    TextView tv_view_on_map,tv_destination;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,12 +21,16 @@ public class Book_ride_3 extends AppCompatActivity {
         setContentView(R.layout.activity_book_ride_3);
 
         btn_book=findViewById(R.id.btn_book);
+        tv_destination=findViewById(R.id.tv_destination);
         tv_view_on_map=findViewById(R.id.tv_view_on_map);
         TextView toolbar_title=findViewById(R.id.toolbar_title);
         toolbar_title.setText("Book Ride");
         utils utils=new utils();
         utils.change_status_bar_color(this,this);
 
+
+        String destination=getIntent().getStringExtra("destination");
+        tv_destination.setText(destination);
         btn_book.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

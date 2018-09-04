@@ -49,8 +49,8 @@ public class registartion_password extends AppCompatActivity {
                         }
                         else
                         {
-                            et_password.setError("Password not matched");
-                            et_repassword.setError("Password not matched");
+                            et_password.setError("Password_admin not matched");
+                            et_repassword.setError("Password_admin not matched");
                         }
                     }
                     else

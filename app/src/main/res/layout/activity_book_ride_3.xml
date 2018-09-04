@@ -44,6 +44,7 @@
                 android:layout_height="30dp"
                 android:layout_weight="1"
                 android:textStyle="bold"
+                android:id="@+id/tv_destination"
                 android:textColor="@color/black"
                 android:gravity="center_vertical"
                 android:text="23A HP Block,Pitampura,Delhi"/>

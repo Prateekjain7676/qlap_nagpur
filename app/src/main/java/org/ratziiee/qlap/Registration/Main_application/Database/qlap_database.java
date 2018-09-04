@@ -90,4 +90,26 @@ public class qlap_database extends SQLiteOpenHelper {
         return station_details;
     }
 
+    public ArrayList<model_station_details> all_details()
+    {
+        ArrayList<model_station_details> list=new ArrayList<>();
+        String query="select * from "+TABLE_NAME_METRO_STATION_DATA;
+        Cursor c=db.rawQuery(query,null);
+        if(c!=null && c.moveToFirst())
+        {
+            do {
+                model_station_details model=new model_station_details();
+                model.setStation_name(c.getString(c.getColumnIndexOrThrow("station_name")));
+                model.setLatitude(c.getString(c.getColumnIndexOrThrow("latitude")));
+                model.setLongitude(c.getString(c.getColumnIndexOrThrow("longitude")));
+
+                list.add(model);
+
+            }
+            while (c.moveToNext());
+        }
+
+        return list;
+    }
+
 }

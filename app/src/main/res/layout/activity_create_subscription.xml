@@ -19,9 +19,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
-            android:text=""
+            android:text="New Subscription for First Mile"
             android:textSize="25dp"
+            android:id="@+id/tv_top_heading"
             android:layout_marginBottom="15dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Step 1/3 : Select Route"
             android:textAlignment="center"/>
 
         <Spinner
@@ -29,7 +36,8 @@
             android:layout_height="20dp"
             android:entries="@array/list"
             android:id="@+id/spn_Selection"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"

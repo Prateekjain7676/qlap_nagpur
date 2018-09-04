@@ -22,11 +22,13 @@ public class Adapter_book_ride_2 extends RecyclerView.Adapter<Adapter_book_ride_
 
     private ArrayList<model_bok_ride_2> list;
     private Context context;
+    String destination_name="";
 
-    public Adapter_book_ride_2(Context context, ArrayList<model_bok_ride_2> list)
+    public Adapter_book_ride_2(Context context, ArrayList<model_bok_ride_2> list,String destination_name)
     {
         this.list=list;
         this.context=context;
+        this.destination_name=destination_name;
     }
     @NonNull
     @Override
@@ -51,6 +53,7 @@ public class Adapter_book_ride_2 extends RecyclerView.Adapter<Adapter_book_ride_
             public void onClick(View view) {
                 Toast.makeText(context, "clicked :"+h.getAdapterPosition(), Toast.LENGTH_SHORT).show();
                 Intent i=new Intent(context,Book_ride_3.class);
+                i.putExtra("destination",destination_name);
                 context.startActivity(i);
             }
         });

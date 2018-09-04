@@ -20,7 +20,7 @@ import java.util.ArrayList;
 public class ola extends Fragment {
 
     RecyclerView rv_my_trip;
-    ArrayList<model_my_trip> list;
+    ArrayList<model_taxi> list;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
@@ -41,11 +41,33 @@ public class ola extends Fragment {
 
     private void init_list()
     {
-        model_my_trip m=new model_my_trip();
-        m.setStation_name("From Kohat Enclave Metro Station");
-        m.setDate("");
-        m.setTime("Departure Time from station : 7:00 AM");
+        model_taxi m=new model_taxi();
+        m.setCab_type("Share");
+        m.setArrival_time("3 minutes away");
+        m.setFare("₹ 80 - 90");
+        m.setReach_by_time("6 : 40 PM");
         list.add(m);
+
+        model_taxi m1=new model_taxi();
+        m1.setCab_type("Micro");
+        m1.setArrival_time("5 minutes away");
+        m1.setFare("₹ 100 - 130");
+        m1.setReach_by_time("6 : 45 PM");
+        list.add(m1);
+
+        model_taxi m2=new model_taxi();
+        m2.setCab_type("Mini");
+        m2.setArrival_time("8 minutes away");
+        m2.setFare("₹ 150 - 170");
+        m2.setReach_by_time("6 : 48 PM");
+        list.add(m2);
+
+        model_taxi m3=new model_taxi();
+        m3.setCab_type("Prime");
+        m3.setArrival_time("13 minutes away");
+        m3.setFare("₹ 200 - 230");
+        m3.setReach_by_time("6 : 53 PM");
+        list.add(m3);
 
 
     }

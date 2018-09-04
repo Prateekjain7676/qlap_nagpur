@@ -20,7 +20,7 @@ public class Create_subscription extends AppCompatActivity {
     Spinner spn_Selection,spn_route;
     ArrayAdapter adapter;
     LinearLayout lay_route;
-    TextView tv_location;
+    TextView tv_location,tv_top_heading;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,10 +31,13 @@ public class Create_subscription extends AppCompatActivity {
         spn_route=findViewById(R.id.spn_route);
         lay_route=findViewById(R.id.lay_route);
         tv_location=findViewById(R.id.tv_location);
+        tv_top_heading=findViewById(R.id.tv_top_heading);
         TextView toolbar_title=findViewById(R.id.toolbar_title);
         toolbar_title.setText("Route Subscription");
         utils utils=new utils();
         utils.change_status_bar_color(this,this);
+
+        tv_top_heading.setText(getIntent().getStringExtra("top_heading"));
 
 
         spn_Selection.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -74,6 +77,7 @@ public class Create_subscription extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent i=new Intent(Create_subscription.this,Create_subs_1.class);
+                i.putExtra("heading",tv_top_heading.getText().toString());
                 startActivity(i);
             }
         });

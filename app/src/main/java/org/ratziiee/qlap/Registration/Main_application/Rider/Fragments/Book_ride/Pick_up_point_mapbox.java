@@ -69,17 +69,9 @@ public class Pick_up_point_mapbox extends AppCompatActivity implements OnMapRead
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        if(i==1)
-        {
-            mMap.addMarker(new MarkerOptions().position(new LatLng(28.7149, 77.1154)));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.7149, 77.1154), 12.0f));
-        }
-        else
-            {
-            mMap.addMarker(new MarkerOptions().position(new LatLng(28.7149, 77.1154)));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.7149, 77.1154), 12.0f));
-        }
 
+            mMap.addMarker(new MarkerOptions().position(new LatLng(28.713538, 77.120324)));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.713538, 77.120324), 15.0f));
 
     }
 

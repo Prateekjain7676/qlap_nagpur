@@ -69,9 +69,29 @@
         <activity android:name=".Registration.Registration.First_Screen" />
         <activity android:name=".Registration.Main_application.Rider.Fragments.Book_ride.Book_ride_last_mile" />
         <activity android:name=".Registration.Main_application.Rider.Fragments.Subscription.Subscription_activity" />
-        <!--<activity-->
-            <!--android:name=".Registration.MapsActivity"-->
-            <!--android:label="@string/title_activity_maps"></activity>-->
+        <!-- <activity -->
+        <!-- android:name=".Registration_admin.MapsActivity" -->
+        <!-- android:label="@string/title_activity_maps"></activity> -->
+        <activity
+            android:name=".Registration.Main_application.Rider.Fragments.Book_ride.choose_on_map_bookride1"
+            android:label="@string/title_activity_choose_on_map_bookride1" />
+        <activity
+            android:name=".Registration.Main_application.Admin.Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Registration.Registration.Admin.Registration_admin" />
+        <activity android:name=".Registration.Registration.Admin.Password_admin" />
+        <activity android:name=".Registration.Main_application.Rider.Fragments.Subscription.Create_subscription.create_subs_pre" />
+        <activity android:name=".Registration.Main_application.Rider.Fragments.Subscription.Create_subscription.select_timing" />
+        <activity
+            android:name=".Registration.Main_application.Admin.Fragments.analysis.heatMap"
+            android:label="@string/title_activity_heat_map" />
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.Fleet_activity_1" />
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.Fleet_managment_2" />
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.Fleet_managment_3" />
+        <activity
+            android:name=".Registration.Main_application.Admin.Fragments.analysis.tisba_analysis"
+            android:label="@string/title_activity_tisba_analysis"></activity>
     </application>
 
 </manifest>
