@@ -21,7 +21,7 @@ public class Fleet_activity_1 extends AppCompatActivity {
         setContentView(R.layout.activity_fleet_1);
 
         TextView toolbar_title=findViewById(R.id.toolbar_title);
-        toolbar_title.setText("Fleet Managment");
+        toolbar_title.setText("Fleet Management");
         utils utils=new utils();
         utils.change_status_bar_color(this,this);
 

@@ -100,4 +100,12 @@
     </string-array>
     <string name="title_activity_tisba_analysis">Map</string>
 
+    <string-array name="tisba_Session">
+
+        <item>Please select </item>
+        <item>Morning Session</item>
+        <item>Day Session</item>
+        <item>Night Session</item>
+    </string-array>
+
 </resources>

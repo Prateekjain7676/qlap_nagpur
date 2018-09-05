@@ -91,7 +91,11 @@
         <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.Fleet_managment_3" />
         <activity
             android:name=".Registration.Main_application.Admin.Fragments.analysis.tisba_analysis"
-            android:label="@string/title_activity_tisba_analysis"></activity>
+            android:label="@string/title_activity_tisba_analysis" />
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.fleet_last_mile" />
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.last_mile_2" />
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.fleet_last_mile_3" />
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.last_mile_increase_fleet"></activity>
     </application>
 
 </manifest>

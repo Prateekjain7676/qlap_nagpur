@@ -2,11 +2,21 @@
 <LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Session"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
 
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_tisba"
+        android:entries="@array/tisba_Session"/>
 
     
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"

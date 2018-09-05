@@ -19,14 +19,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rithala Station"
+            android:text="JIMS College"
+            android:id="@+id/tv_title"
             android:textColor="@color/black"
             android:textSize="20dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TYPE : TERMINAL"
+            android:text=""
             android:textColor="@color/black"
             android:textSize="15dp"/>
 
@@ -61,7 +62,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="5- 8 Minutes"
+                    android:text="10-15 Minutes"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:layout_weight="1"/>
@@ -89,7 +90,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="10 Minutes"
+                    android:text="21 Minutes"
                     android:id="@+id/tv_view_on_map"
                     android:textAlignment="center"
                     android:textColor="@color/black"
@@ -117,7 +118,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="25%"
+                    android:text="40%"
                     android:textAlignment="center"
                     android:textColor="@android:color/holo_red_dark"
                     android:layout_weight="1"/>
@@ -189,7 +190,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FLEET CONFIGURATION"
+            android:text="SERVING MODES AND FLEET"
             android:textColor="@color/black"
             android:textSize="15dp"/>
 
@@ -262,59 +263,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:minWidth="100dp"
-                    android:layout_marginStart="5dp"
-                    android:text="MINIBUS"
-                    android:textColor="@color/black"
-                    />
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:text="5"
-                    android:background="#ECE2B8"/>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:text="-"
-                    android:background="#CAD2E4"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <Button
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:text="-"
-                    android:background="#B0D3A3"/>
-
-
-            </LinearLayout>
-        </LinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -341,7 +290,7 @@
                 <Button
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:text="12"
+                    android:text="2"
                     android:background="#ECE2B8"/>
 
 
