@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reach a Metro Station"
+        android:text="Reach your destination"
         android:textColor="@color/text_color"
         android:textAlignment="center"
         android:textSize="25dp"/>
@@ -35,14 +35,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select your Origin Metro Station"
+            android:text="Select your Origin Metro/Bus Station"
             android:textColor="@color/black"
             android:textSize="18dp"/>
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="20dp"
-        android:entries="@array/metro_station_list_last"/>
+        android:id="@+id/spn_desti"
+        android:textColor="#000000"
+        android:entries="@array/new_station_list"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="20dp"/>

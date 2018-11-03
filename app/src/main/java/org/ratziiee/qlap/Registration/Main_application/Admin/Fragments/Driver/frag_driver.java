@@ -44,7 +44,7 @@ public class frag_driver extends Fragment
         list=new ArrayList<>();
         model_driver m=new model_driver();
         m.setDriver_name("babloo hatkar");
-        m.setMode("auto/bus/rikshaw/cab");
+        m.setMode("auto");
         m.setSno("1");
         m.setRider_rating("2.5/5");
         list.add(m);
@@ -94,7 +94,7 @@ public class frag_driver extends Fragment
 
         model_driver m7=new model_driver();
         m7.setDriver_name("bablu hatkar");
-        m7.setMode("auto/bus/rikshaw/cab");
+        m7.setMode("auto");
         m7.setSno("8");
         m7.setRider_rating("2.5/5");
         list.add(m7);

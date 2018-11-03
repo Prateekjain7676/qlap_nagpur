@@ -12,17 +12,17 @@
     android:layout_height="match_parent"
     tools:context=".Registration.Main_application.Rider.Fragments.Book_ride.choose_on_map_bookride1" />
 
-    <ImageView
+    <!--<ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/pointer"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"/>-->
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_style"
-        android:text="Select Ride Origin Location"
+        android:text="Select Current Location"
         android:textColor="@color/white"
         android:layout_alignParentBottom="true"
         android:layout_margin="15dp"

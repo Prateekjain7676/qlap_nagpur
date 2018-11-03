@@ -1,0 +1,1121 @@
+{
+    "id": "3zs0oZsi5kmdm6mNAO9RIg",
+    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg",
+    "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+            [
+                79.0703,
+                21.14793
+            ],
+            [
+                79.06459,
+                21.14621
+            ]
+        ]
+    },
+    "time": "2018-11-03T14:31:19Z",
+    "timeType": "DepartAfter",
+    "profile": "ClosestToTime",
+    "fareProducts": [],
+    "maxItineraries": 5,
+    "only": {
+        "agencies": [],
+        "modes": []
+    },
+    "omit": {
+        "agencies": [],
+        "modes": []
+    },
+    "itineraries": [
+        {
+            "id": "A65JByhs9k-KKamNAO9RQw",
+            "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/A65JByhs9k-KKamNAO9RQw",
+            "departureTime": "2018-11-03T14:31:19Z",
+            "arrivalTime": "2018-11-03T14:43:57Z",
+            "distance": {
+                "value": 1067,
+                "unit": "m"
+            },
+            "duration": 758,
+            "legs": [
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/A65JByhs9k-KKamNAO9RQw/legs/1",
+                    "type": "Walking",
+                    "behaviour": "Static",
+                    "distance": {
+                        "value": 1067,
+                        "unit": "m"
+                    },
+                    "duration": 758,
+                    "waypoints": [
+                        {
+                            "location": {
+                                "address": "Start",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.0703,
+                                        21.14793
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:31:19Z",
+                            "departureTime": "2018-11-03T14:31:19Z"
+                        },
+                        {
+                            "location": {
+                                "address": "End",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.06459,
+                                        21.14621
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:43:57Z",
+                            "departureTime": "2018-11-03T14:43:57Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.06984,
+                                21.14811
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.06874,
+                                21.14923
+                            ],
+                            [
+                                79.06796,
+                                21.14944
+                            ],
+                            [
+                                79.06693,
+                                21.1496
+                            ],
+                            [
+                                79.06693,
+                                21.1496
+                            ],
+                            [
+                                79.06682,
+                                21.1481
+                            ],
+                            [
+                                79.06682,
+                                21.1481
+                            ],
+                            [
+                                79.06673,
+                                21.14805
+                            ],
+                            [
+                                79.06543,
+                                21.14826
+                            ],
+                            [
+                                79.06543,
+                                21.14826
+                            ],
+                            [
+                                79.06546,
+                                21.14639
+                            ],
+                            [
+                                79.06546,
+                                21.14639
+                            ],
+                            [
+                                79.06467,
+                                21.1464
+                            ],
+                            [
+                                79.0644,
+                                21.14643
+                            ],
+                            [
+                                79.0644,
+                                21.14643
+                            ],
+                            [
+                                79.06438,
+                                21.14623
+                            ]
+                        ]
+                    },
+                    "directions": [
+                        {
+                            "instruction": "Head northeast",
+                            "distance": {
+                                "value": 69,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn left and head northwest",
+                            "distance": {
+                                "value": 345,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn left and head south",
+                            "distance": {
+                                "value": 166,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head west",
+                            "distance": {
+                                "value": 148,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn left and head south",
+                            "distance": {
+                                "value": 207,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right onto Amravati Road, NH53 and head west",
+                            "distance": {
+                                "value": 110,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn left and head south",
+                            "distance": {
+                                "value": 22,
+                                "unit": "m"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "IKKVDrUpT06cvKmNAO9RhQ",
+            "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/IKKVDrUpT06cvKmNAO9RhQ",
+            "departureTime": "2018-11-03T14:25:40Z",
+            "arrivalTime": "2018-11-03T14:59:58Z",
+            "distance": {
+                "value": 10308,
+                "unit": "m"
+            },
+            "duration": 2058,
+            "legs": [
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/IKKVDrUpT06cvKmNAO9RhQ/legs/1",
+                    "type": "Walking",
+                    "behaviour": "Static",
+                    "distance": {
+                        "value": 809,
+                        "unit": "m"
+                    },
+                    "duration": 577,
+                    "waypoints": [
+                        {
+                            "location": {
+                                "address": "Start",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.0703,
+                                        21.14793
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:25:40Z",
+                            "departureTime": "2018-11-03T14:25:40Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:35:17Z",
+                            "departureTime": "2018-11-03T14:35:17Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.06984,
+                                21.14811
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.0707,
+                                21.14847
+                            ],
+                            [
+                                79.07115,
+                                21.14836
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07001,
+                                21.14593
+                            ]
+                        ]
+                    },
+                    "directions": [
+                        {
+                            "instruction": "Head northeast",
+                            "distance": {
+                                "value": 69,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head east",
+                            "distance": {
+                                "value": 229,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head south",
+                            "distance": {
+                                "value": 287,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right onto Amravati Road, NH53 and head west",
+                            "distance": {
+                                "value": 224,
+                                "unit": "m"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/IKKVDrUpT06cvKmNAO9RhQ/legs/2",
+                    "type": "Transit",
+                    "behaviour": "Estimated",
+                    "distance": {
+                        "value": 9499,
+                        "unit": "m"
+                    },
+                    "duration": 1481,
+                    "line": {
+                        "id": "adlQ7m2alE261KmJAOGoDg",
+                        "href": "https://platform.whereismytransport.com/api/lines/adlQ7m2alE261KmJAOGoDg",
+                        "agency": {
+                            "id": "N4tD1tmL8Euy76mJAOGl1w",
+                            "href": "https://platform.whereismytransport.com/api/agencies/N4tD1tmL8Euy76mJAOGl1w",
+                            "name": "IPT Shared Auto Rickshaw",
+                            "culture": "en"
+                        },
+                        "name": "Eternity Mall to Wadi",
+                        "mode": "ShareTaxi",
+                        "colour": "#ff47c904",
+                        "textColour": "#ff000000"
+                    },
+                    "vehicle": {
+                        "tripId": "y-rutie5LEiky6mJAOGvWg",
+                        "tripNumber": 2,
+                        "designation": "Weekends",
+                        "headsign": "Wadi Police St",
+                        "alternativeVehicles": []
+                    },
+                    "waypoints": [
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:35:17Z",
+                            "departureTime": "2018-11-03T14:35:17Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.06461,
+                                        21.14641
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:59:58Z",
+                            "departureTime": "2018-11-03T14:59:58Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.07002,
+                                21.14594
+                            ],
+                            [
+                                79.07,
+                                21.14594
+                            ],
+                            [
+                                79.06764,
+                                21.14626
+                            ],
+                            [
+                                79.06753,
+                                21.14626
+                            ],
+                            [
+                                79.0667,
+                                21.14632
+                            ],
+                            [
+                                79.06582,
+                                21.14637
+                            ],
+                            [
+                                79.06546,
+                                21.14639
+                            ],
+                            [
+                                79.06467,
+                                21.1464
+                            ],
+                            [
+                                79.06461,
+                                21.14641
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "st-8vy16yE6BYKmNAO9RhQ",
+            "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/st-8vy16yE6BYKmNAO9RhQ",
+            "departureTime": "2018-11-03T14:25:40Z",
+            "arrivalTime": "2018-11-03T15:00:56Z",
+            "distance": {
+                "value": 4566,
+                "unit": "m"
+            },
+            "duration": 2116,
+            "legs": [
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/st-8vy16yE6BYKmNAO9RhQ/legs/1",
+                    "type": "Walking",
+                    "behaviour": "Static",
+                    "distance": {
+                        "value": 809,
+                        "unit": "m"
+                    },
+                    "duration": 577,
+                    "waypoints": [
+                        {
+                            "location": {
+                                "address": "Start",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.0703,
+                                        21.14793
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:25:40Z",
+                            "departureTime": "2018-11-03T14:25:40Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:35:17Z",
+                            "departureTime": "2018-11-03T14:35:17Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.06984,
+                                21.14811
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.0707,
+                                21.14847
+                            ],
+                            [
+                                79.07115,
+                                21.14836
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07001,
+                                21.14593
+                            ]
+                        ]
+                    },
+                    "directions": [
+                        {
+                            "instruction": "Head northeast",
+                            "distance": {
+                                "value": 69,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head east",
+                            "distance": {
+                                "value": 229,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head south",
+                            "distance": {
+                                "value": 287,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right onto Amravati Road, NH53 and head west",
+                            "distance": {
+                                "value": 224,
+                                "unit": "m"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/st-8vy16yE6BYKmNAO9RhQ/legs/2",
+                    "type": "Transit",
+                    "behaviour": "Estimated",
+                    "distance": {
+                        "value": 3757,
+                        "unit": "m"
+                    },
+                    "duration": 1539,
+                    "line": {
+                        "id": "5VIaPYH13U6Yj6mJAOGoyg",
+                        "href": "https://platform.whereismytransport.com/api/lines/5VIaPYH13U6Yj6mJAOGoyg",
+                        "agency": {
+                            "id": "N4tD1tmL8Euy76mJAOGl1w",
+                            "href": "https://platform.whereismytransport.com/api/agencies/N4tD1tmL8Euy76mJAOGl1w",
+                            "name": "IPT Shared Auto Rickshaw",
+                            "culture": "en"
+                        },
+                        "name": "Eternity Mall to Futala Lake",
+                        "mode": "ShareTaxi",
+                        "colour": "#ff61c904",
+                        "textColour": "#ff000000"
+                    },
+                    "vehicle": {
+                        "tripId": "s7AK1y8dC0SxkamJAOGy5Q",
+                        "tripNumber": 0,
+                        "designation": "Weekends",
+                        "headsign": "Futala",
+                        "alternativeVehicles": []
+                    },
+                    "waypoints": [
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:35:17Z",
+                            "departureTime": "2018-11-03T14:35:17Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.06461,
+                                        21.14641
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T15:00:56Z",
+                            "departureTime": "2018-11-03T15:00:56Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.07002,
+                                21.14594
+                            ],
+                            [
+                                79.07,
+                                21.14594
+                            ],
+                            [
+                                79.06764,
+                                21.14626
+                            ],
+                            [
+                                79.06753,
+                                21.14626
+                            ],
+                            [
+                                79.0667,
+                                21.14632
+                            ],
+                            [
+                                79.06582,
+                                21.14637
+                            ],
+                            [
+                                79.06546,
+                                21.14639
+                            ],
+                            [
+                                79.06467,
+                                21.1464
+                            ],
+                            [
+                                79.06461,
+                                21.14641
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7fDT13bDvUK2hamNAO9RhQ",
+            "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/7fDT13bDvUK2hamNAO9RhQ",
+            "departureTime": "2018-11-03T14:40:23Z",
+            "arrivalTime": "2018-11-03T15:14:41Z",
+            "distance": {
+                "value": 10308,
+                "unit": "m"
+            },
+            "duration": 2058,
+            "legs": [
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/7fDT13bDvUK2hamNAO9RhQ/legs/1",
+                    "type": "Walking",
+                    "behaviour": "Static",
+                    "distance": {
+                        "value": 809,
+                        "unit": "m"
+                    },
+                    "duration": 577,
+                    "waypoints": [
+                        {
+                            "location": {
+                                "address": "Start",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.0703,
+                                        21.14793
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:40:23Z",
+                            "departureTime": "2018-11-03T14:40:23Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:50:00Z",
+                            "departureTime": "2018-11-03T14:50:00Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.06984,
+                                21.14811
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.0707,
+                                21.14847
+                            ],
+                            [
+                                79.07115,
+                                21.14836
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07001,
+                                21.14593
+                            ]
+                        ]
+                    },
+                    "directions": [
+                        {
+                            "instruction": "Head northeast",
+                            "distance": {
+                                "value": 69,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head east",
+                            "distance": {
+                                "value": 229,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head south",
+                            "distance": {
+                                "value": 287,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right onto Amravati Road, NH53 and head west",
+                            "distance": {
+                                "value": 224,
+                                "unit": "m"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/7fDT13bDvUK2hamNAO9RhQ/legs/2",
+                    "type": "Transit",
+                    "behaviour": "Estimated",
+                    "distance": {
+                        "value": 9499,
+                        "unit": "m"
+                    },
+                    "duration": 1481,
+                    "line": {
+                        "id": "adlQ7m2alE261KmJAOGoDg",
+                        "href": "https://platform.whereismytransport.com/api/lines/adlQ7m2alE261KmJAOGoDg",
+                        "agency": {
+                            "id": "N4tD1tmL8Euy76mJAOGl1w",
+                            "href": "https://platform.whereismytransport.com/api/agencies/N4tD1tmL8Euy76mJAOGl1w",
+                            "name": "IPT Shared Auto Rickshaw",
+                            "culture": "en"
+                        },
+                        "name": "Eternity Mall to Wadi",
+                        "mode": "ShareTaxi",
+                        "colour": "#ff47c904",
+                        "textColour": "#ff000000"
+                    },
+                    "vehicle": {
+                        "tripId": "y-rutie5LEiky6mJAOGvWg",
+                        "tripNumber": 2,
+                        "designation": "Weekends",
+                        "headsign": "Wadi Police St",
+                        "alternativeVehicles": []
+                    },
+                    "waypoints": [
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:50:00Z",
+                            "departureTime": "2018-11-03T14:50:00Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.06461,
+                                        21.14641
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T15:14:41Z",
+                            "departureTime": "2018-11-03T15:14:41Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.07002,
+                                21.14594
+                            ],
+                            [
+                                79.07,
+                                21.14594
+                            ],
+                            [
+                                79.06764,
+                                21.14626
+                            ],
+                            [
+                                79.06753,
+                                21.14626
+                            ],
+                            [
+                                79.0667,
+                                21.14632
+                            ],
+                            [
+                                79.06582,
+                                21.14637
+                            ],
+                            [
+                                79.06546,
+                                21.14639
+                            ],
+                            [
+                                79.06467,
+                                21.1464
+                            ],
+                            [
+                                79.06461,
+                                21.14641
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "lAKlqCjTe0qJnKmNAO9RhQ",
+            "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/lAKlqCjTe0qJnKmNAO9RhQ",
+            "departureTime": "2018-11-03T14:40:23Z",
+            "arrivalTime": "2018-11-03T15:15:39Z",
+            "distance": {
+                "value": 4566,
+                "unit": "m"
+            },
+            "duration": 2116,
+            "legs": [
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/lAKlqCjTe0qJnKmNAO9RhQ/legs/1",
+                    "type": "Walking",
+                    "behaviour": "Static",
+                    "distance": {
+                        "value": 809,
+                        "unit": "m"
+                    },
+                    "duration": 577,
+                    "waypoints": [
+                        {
+                            "location": {
+                                "address": "Start",
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.0703,
+                                        21.14793
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:40:23Z",
+                            "departureTime": "2018-11-03T14:40:23Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:50:00Z",
+                            "departureTime": "2018-11-03T14:50:00Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.06984,
+                                21.14811
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.07011,
+                                21.14868
+                            ],
+                            [
+                                79.0707,
+                                21.14847
+                            ],
+                            [
+                                79.07115,
+                                21.14836
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07226,
+                                21.14823
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07216,
+                                21.14564
+                            ],
+                            [
+                                79.07001,
+                                21.14593
+                            ]
+                        ]
+                    },
+                    "directions": [
+                        {
+                            "instruction": "Head northeast",
+                            "distance": {
+                                "value": 69,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head east",
+                            "distance": {
+                                "value": 229,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right and head south",
+                            "distance": {
+                                "value": 287,
+                                "unit": "m"
+                            }
+                        },
+                        {
+                            "instruction": "Turn right onto Amravati Road, NH53 and head west",
+                            "distance": {
+                                "value": 224,
+                                "unit": "m"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "href": "https://platform.whereismytransport.com/api/journeys/3zs0oZsi5kmdm6mNAO9RIg/itineraries/lAKlqCjTe0qJnKmNAO9RhQ/legs/2",
+                    "type": "Transit",
+                    "behaviour": "Estimated",
+                    "distance": {
+                        "value": 3757,
+                        "unit": "m"
+                    },
+                    "duration": 1539,
+                    "line": {
+                        "id": "5VIaPYH13U6Yj6mJAOGoyg",
+                        "href": "https://platform.whereismytransport.com/api/lines/5VIaPYH13U6Yj6mJAOGoyg",
+                        "agency": {
+                            "id": "N4tD1tmL8Euy76mJAOGl1w",
+                            "href": "https://platform.whereismytransport.com/api/agencies/N4tD1tmL8Euy76mJAOGl1w",
+                            "name": "IPT Shared Auto Rickshaw",
+                            "culture": "en"
+                        },
+                        "name": "Eternity Mall to Futala Lake",
+                        "mode": "ShareTaxi",
+                        "colour": "#ff61c904",
+                        "textColour": "#ff000000"
+                    },
+                    "vehicle": {
+                        "tripId": "s7AK1y8dC0SxkamJAOGy5Q",
+                        "tripNumber": 0,
+                        "designation": "Weekends",
+                        "headsign": "Futala",
+                        "alternativeVehicles": []
+                    },
+                    "waypoints": [
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.07001,
+                                        21.14594
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T14:50:00Z",
+                            "departureTime": "2018-11-03T14:50:00Z"
+                        },
+                        {
+                            "hail": {
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": [
+                                        79.06461,
+                                        21.14641
+                                    ]
+                                }
+                            },
+                            "arrivalTime": "2018-11-03T15:15:39Z",
+                            "departureTime": "2018-11-03T15:15:39Z"
+                        }
+                    ],
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                79.07002,
+                                21.14594
+                            ],
+                            [
+                                79.07,
+                                21.14594
+                            ],
+                            [
+                                79.06764,
+                                21.14626
+                            ],
+                            [
+                                79.06753,
+                                21.14626
+                            ],
+                            [
+                                79.0667,
+                                21.14632
+                            ],
+                            [
+                                79.06582,
+                                21.14637
+                            ],
+                            [
+                                79.06546,
+                                21.14639
+                            ],
+                            [
+                                79.06467,
+                                21.1464
+                            ],
+                            [
+                                79.06461,
+                                21.14641
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

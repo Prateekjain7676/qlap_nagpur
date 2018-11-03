@@ -1,0 +1,2102 @@
+[
+    {
+        "id": "4HyJk8Pq6k2VkqmKAKx7Bw",
+        "href": "https://platform.whereismytransport.com/api/stops/4HyJk8Pq6k2VkqmKAKx7Bw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "10 Number Puliya",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09675,
+                21.17081
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "RAO4vxSvxkmRxKmKAKx--Q",
+        "href": "https://platform.whereismytransport.com/api/stops/RAO4vxSvxkmRxKmKAKx--Q",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "7 No",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.94827,
+                20.92278
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "da_j_HjJ8E-1AKmKAKyEPg",
+        "href": "https://platform.whereismytransport.com/api/stops/da_j_HjJ8E-1AKmKAKyEPg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "8 Mile, Waddhamna",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.97224,
+                21.14508
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "hhILkNjbgUKdd6mKAQIIvw",
+        "href": "https://platform.whereismytransport.com/api/stops/hhILkNjbgUKdd6mKAQIIvw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "8th Mile",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.97552,
+                21.14422
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "Tdim0sdZAUakramKAQIJEA",
+        "href": "https://platform.whereismytransport.com/api/stops/Tdim0sdZAUakramKAQIJEA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Aaradhna",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.1365,
+                21.12104
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "Cogvj1bom0qg_KmKAQIJzg",
+        "href": "https://platform.whereismytransport.com/api/stops/Cogvj1bom0qg_KmKAQIJzg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Aarogya Sampada Hospital and Nursing Home",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.1159,
+                21.16944
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "_38Gmk6ulkWLZamKAQIJ1w",
+        "href": "https://platform.whereismytransport.com/api/stops/_38Gmk6ulkWLZamKAQIJ1w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Aashish Traders",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.08001,
+                21.08367
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "RdfIyycujEOydKmKAKx7DA",
+        "href": "https://platform.whereismytransport.com/api/stops/RdfIyycujEOydKmKAKx7DA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Abhyanka Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.05872,
+                21.12553
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "5O-OT2ZTVUmK9qmKAKx75A",
+        "href": "https://platform.whereismytransport.com/api/stops/5O-OT2ZTVUmK9qmKAKx75A",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Acc Chauk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.97572,
+                20.90475
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "d8RqfK3YdEqqZ6mKAKyAsQ",
+        "href": "https://platform.whereismytransport.com/api/stops/d8RqfK3YdEqqZ6mKAKyAsQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Achraj Tower",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07912,
+                21.16854
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "FUNG9CZk80qCGKmKAKx7RQ",
+        "href": "https://platform.whereismytransport.com/api/stops/FUNG9CZk80qCGKmKAKx7RQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Adamshah",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11453,
+                21.14896
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "z1GG6HmEa0CqjamKAKyAyQ",
+        "href": "https://platform.whereismytransport.com/api/stops/z1GG6HmEa0CqjamKAKyAyQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Adivasi",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.03949,
+                21.18137
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "4xJ5fQwGDUyt3KmKAKyMJA",
+        "href": "https://platform.whereismytransport.com/api/stops/4xJ5fQwGDUyt3KmKAKyMJA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Agrasen Square",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.1042,
+                21.15073
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "kUK4GbUjK0uG9qmKAKx7Uw",
+        "href": "https://platform.whereismytransport.com/api/stops/kUK4GbUjK0uG9qmKAKx7Uw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Air Force Airport",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.04284,
+                21.08504
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "dsefNFkMeE6quKmKAKx7YQ",
+        "href": "https://platform.whereismytransport.com/api/stops/dsefNFkMeE6quKmKAKx7YQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Air Force Colony",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.01504,
+                21.16615
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "1jOYMv6eRk6ANKmKAKyA3A",
+        "href": "https://platform.whereismytransport.com/api/stops/1jOYMv6eRk6ANKmKAKyA3A",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ajanta Marvel",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.08011,
+                21.09501
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "4MkXZtZE4keZfamKAQIL5w",
+        "href": "https://platform.whereismytransport.com/api/stops/4MkXZtZE4keZfamKAQIL5w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ajni",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07308,
+                21.12038
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "Lu00qBYhTkSsL6mKAKyCHw",
+        "href": "https://platform.whereismytransport.com/api/stops/Lu00qBYhTkSsL6mKAKyCHw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Akashvani Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07436,
+                21.149
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "dfK7FKIAKEy0NqmKAKx7rA",
+        "href": "https://platform.whereismytransport.com/api/stops/dfK7FKIAKEy0NqmKAKx7rA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Akashvani Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07549,
+                21.15276
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "JqMGD8gWQ02hUqmKAKyCAw",
+        "href": "https://platform.whereismytransport.com/api/stops/JqMGD8gWQ02hUqmKAKyCAw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Akashvani Square",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07475,
+                21.15166
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "TzJ5BU6wuUGKUqmKAKx85w",
+        "href": "https://platform.whereismytransport.com/api/stops/TzJ5BU6wuUGKUqmKAKx85w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Akashwani Square",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07711,
+                21.1526
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "3CWMOfB4qUCrOKmKAKyBGQ",
+        "href": "https://platform.whereismytransport.com/api/stops/3CWMOfB4qUCrOKmKAKyBGQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Akath Matha",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.01668,
+                21.10124
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "SdFsN2llnEyIvamKAKyCgg",
+        "href": "https://platform.whereismytransport.com/api/stops/SdFsN2llnEyIvamKAKyCgg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Akath Matha 2",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.01411,
+                21.10198
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "EgE20WKKjUqIXKmKAKyEwQ",
+        "href": "https://platform.whereismytransport.com/api/stops/EgE20WKKjUqIXKmKAKyEwQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Akath Matha Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.0172,
+                21.10253
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "l6cqsF343UWLh6mKAKx7ag",
+        "href": "https://platform.whereismytransport.com/api/stops/l6cqsF343UWLh6mKAKx7ag",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Alankar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09851,
+                21.09433
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "uBEeUmplhUKzAKmKAKx8Kw",
+        "href": "https://platform.whereismytransport.com/api/stops/uBEeUmplhUKzAKmKAKx8Kw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Alankar Chouk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06675,
+                21.13729
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "dO_rhsurkESZpamKAKx7bw",
+        "href": "https://platform.whereismytransport.com/api/stops/dO_rhsurkESZpamKAKx7bw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Alankar Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06891,
+                21.13797
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "dF9_oQ4C6UydeamKAKx7fQ",
+        "href": "https://platform.whereismytransport.com/api/stops/dF9_oQ4C6UydeamKAKx7fQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Alesur",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.94406,
+                21.16602
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "B-QyOkbcZkOIWamKAKx-sw",
+        "href": "https://platform.whereismytransport.com/api/stops/B-QyOkbcZkOIWamKAKx-sw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Amar Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.10849,
+                21.09719
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "6L8vRw-gIUK8qKmKAKyAIA",
+        "href": "https://platform.whereismytransport.com/api/stops/6L8vRw-gIUK8qKmKAKyAIA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ambazari",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.0444,
+                21.12573
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "edsmIKhm1kqeramKAQIJ3A",
+        "href": "https://platform.whereismytransport.com/api/stops/edsmIKhm1kqeramKAQIJ3A",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ambazari T Point",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.04703,
+                21.13084
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "RJVCmkDJUU6JKKmKAKx7iw",
+        "href": "https://platform.whereismytransport.com/api/stops/RJVCmkDJUU6JKKmKAKx7iw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ambedakar Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09149,
+                21.11443
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "rbj9eekGkEKjAqmKAQIKDw",
+        "href": "https://platform.whereismytransport.com/api/stops/rbj9eekGkEKjAqmKAQIKDw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Anand Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11996,
+                21.17242
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "NdvZSVnYXU2w9qmKAKx8Dw",
+        "href": "https://platform.whereismytransport.com/api/stops/NdvZSVnYXU2w9qmKAKx8Dw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Anand Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06205,
+                21.18102
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "y72q9OeCYE-0bKmKAQIKGQ",
+        "href": "https://platform.whereismytransport.com/api/stops/y72q9OeCYE-0bKmKAQIKGQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Anand Nagar 2",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06467,
+                21.18173
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "lfLCbPZ4Kk-MFqmKAKyBbQ",
+        "href": "https://platform.whereismytransport.com/api/stops/lfLCbPZ4Kk-MFqmKAKyBbQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ananya Medical",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07739,
+                21.07527
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "qKGmAk5gy0e0BqmKAQIKGQ",
+        "href": "https://platform.whereismytransport.com/api/stops/qKGmAk5gy0e0BqmKAQIKGQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Anjuman High School",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07905,
+                21.16648
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "nuekJT2yW0awM6mKAQIKIg",
+        "href": "https://platform.whereismytransport.com/api/stops/nuekJT2yW0awM6mKAQIKIg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Anna Mod",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11009,
+                21.27892
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "lXy8tE6rh0GawKmKAKyEXg",
+        "href": "https://platform.whereismytransport.com/api/stops/lXy8tE6rh0GawKmKAKyEXg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ansh Bar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07458,
+                21.21198
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "qb4fcmVvG0Kpz6mKAKyC2w",
+        "href": "https://platform.whereismytransport.com/api/stops/qb4fcmVvG0Kpz6mKAKyC2w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Arjun Park",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07745,
+                21.07692
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "PCK-CbH--kegTqmKAKyDUQ",
+        "href": "https://platform.whereismytransport.com/api/stops/PCK-CbH--kegTqmKAKyDUQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Artava Nagari",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.10905,
+                21.08306
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "YNTUilEibUKtAqmKAKyDPg",
+        "href": "https://platform.whereismytransport.com/api/stops/YNTUilEibUKtAqmKAKyDPg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Arthava Nagari",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.10735,
+                21.0834
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "kXwayPewyUGDr6mKAQILCw",
+        "href": "https://platform.whereismytransport.com/api/stops/kXwayPewyUGDr6mKAQILCw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Aryan Restaurant",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.08192,
+                21.09018
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "Oz57ZB39UUGXpamKAKx-JA",
+        "href": "https://platform.whereismytransport.com/api/stops/Oz57ZB39UUGXpamKAKx-JA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Asha Hospital",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.99568,
+                21.15031
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "XV9a7whKKESWlKmKAKx9PA",
+        "href": "https://platform.whereismytransport.com/api/stops/XV9a7whKKESWlKmKAKx9PA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Asha Hospital",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.1671,
+                21.21514
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "2EFmcFeme0Cc3qmKAKyBJw",
+        "href": "https://platform.whereismytransport.com/api/stops/2EFmcFeme0Cc3qmKAKyBJw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Asha Hospital",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.16978,
+                21.21647
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "C0U5wRljikmMYKmKAQIKNQ",
+        "href": "https://platform.whereismytransport.com/api/stops/C0U5wRljikmMYKmKAQIKNQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ashirwad Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11953,
+                21.10772
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "ksKyrUVgfkqAGqmKAKyC3w",
+        "href": "https://platform.whereismytransport.com/api/stops/ksKyrUVgfkqAGqmKAKyC3w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ashirwad Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.12186,
+                21.11015
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "mVx16hJLOEW06amKAKyE1A",
+        "href": "https://platform.whereismytransport.com/api/stops/mVx16hJLOEW06amKAKyE1A",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ashirwad Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.12057,
+                21.11138
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "913l9kKQdk2tTamKAKyCeA",
+        "href": "https://platform.whereismytransport.com/api/stops/913l9kKQdk2tTamKAKyCeA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ashok Chowk Gate",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.10349,
+                21.13679
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "8xJtoL8cskqrHamKAKx7rA",
+        "href": "https://platform.whereismytransport.com/api/stops/8xJtoL8cskqrHamKAKx7rA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ashok One",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.04345,
+                21.00928
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "bQ3NqvDQ90O3Q6mKAQILlw",
+        "href": "https://platform.whereismytransport.com/api/stops/bQ3NqvDQ90O3Q6mKAQILlw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ashok Shoes",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.08077,
+                21.1429
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "y54S9MSrQ0yca6mKAQIKRA",
+        "href": "https://platform.whereismytransport.com/api/stops/y54S9MSrQ0yca6mKAQIKRA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Astavinayaka",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.02925,
+                21.11409
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "UmzHR1W6l0G1vqmKAKx--Q",
+        "href": "https://platform.whereismytransport.com/api/stops/UmzHR1W6l0G1vqmKAKx--Q",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Atlanta Computer Institute",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06106,
+                21.14342
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "1PnqHjamYEiDKKmKAKyGsg",
+        "href": "https://platform.whereismytransport.com/api/stops/1PnqHjamYEiDKKmKAKyGsg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Atlanta Computer Institute",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06107,
+                21.14286
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "aqsTQaCddEyyLqmKAKx_2g",
+        "href": "https://platform.whereismytransport.com/api/stops/aqsTQaCddEyyLqmKAKx_2g",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Atul Lawn",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.13908,
+                21.10821
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "MhIdB6k-9UeNxamKAKx_Ng",
+        "href": "https://platform.whereismytransport.com/api/stops/MhIdB6k-9UeNxamKAKx_Ng",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Atul Lawn",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.1403,
+                21.10764
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "-dLF-fot7EmMDamKAKx_Gg",
+        "href": "https://platform.whereismytransport.com/api/stops/-dLF-fot7EmMDamKAKx_Gg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Atul Lawn",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.13694,
+                21.10973
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "-VB-CNKJeEGfUamLAQtkKA",
+        "href": "https://platform.whereismytransport.com/api/stops/-VB-CNKJeEGfUamLAQtkKA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Automotive Square",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11679,
+                21.18387
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "-EuZoMDDykiQg6mKAQIKWQ",
+        "href": "https://platform.whereismytransport.com/api/stops/-EuZoMDDykiQg6mKAQIKWQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Awasthi Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06953,
+                21.18253
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "asYiufdi4ESd_KmKAKx-xQ",
+        "href": "https://platform.whereismytransport.com/api/stops/asYiufdi4ESd_KmKAKx-xQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Awasthi Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06862,
+                21.18268
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "Os6aIDVDRUyKRamKAQIKZw",
+        "href": "https://platform.whereismytransport.com/api/stops/Os6aIDVDRUyKRamKAQIKZw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Axis Bank",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.01296,
+                21.15378
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "XuoSVeK9ikyivamKAKx9dg",
+        "href": "https://platform.whereismytransport.com/api/stops/XuoSVeK9ikyivamKAKx9dg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Axis Bank",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.00292,
+                21.15305
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "8rELyiYRLUWY1qmKAQIPbw",
+        "href": "https://platform.whereismytransport.com/api/stops/8rELyiYRLUWY1qmKAQIPbw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Axis Bank",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.05674,
+                21.12223
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "F6vBYpz3o0mzlamKAQIKeg",
+        "href": "https://platform.whereismytransport.com/api/stops/F6vBYpz3o0mzlamKAQIKeg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ayachit Mandir",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11259,
+                21.14685
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "KaCWcqiFgUepcamKAQIKiA",
+        "href": "https://platform.whereismytransport.com/api/stops/KaCWcqiFgUepcamKAQIKiA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ayodhya Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11075,
+                21.11595
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "i26S6VcnKUKn96mKAKx_TQ",
+        "href": "https://platform.whereismytransport.com/api/stops/i26S6VcnKUKn96mKAKx_TQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ayodhya Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.1128,
+                21.1151
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "9jrYzWmMnEO5QKmKAKx8Jg",
+        "href": "https://platform.whereismytransport.com/api/stops/9jrYzWmMnEO5QKmKAKx8Jg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Ayodhya Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11097,
+                21.11736
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "myqQot1_AUmNiamLAQti7A",
+        "href": "https://platform.whereismytransport.com/api/stops/myqQot1_AUmNiamLAQti7A",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Baba Taj Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.13236,
+                21.17835
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "OkzJCrjFlU6JcKmKAKx_Vw",
+        "href": "https://platform.whereismytransport.com/api/stops/OkzJCrjFlU6JcKmKAKx_Vw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Babbu Biryani",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.0781,
+                21.16828
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "VKoFx6r_Q02U76mKAQIKlg",
+        "href": "https://platform.whereismytransport.com/api/stops/VKoFx6r_Q02U76mKAQIKlg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Babulkheda",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.03287,
+                21.30325
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "SAW5j1WJw0G6GqmKAQIKnw",
+        "href": "https://platform.whereismytransport.com/api/stops/SAW5j1WJw0G6GqmKAQIKnw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bada Tajbag",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.1259,
+                21.11817
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "V-ZFqHwV0Eep2amKAQIKqA",
+        "href": "https://platform.whereismytransport.com/api/stops/V-ZFqHwV0Eep2amKAQIKqA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bagham Bhag",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09454,
+                21.16991
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "4TGxE9vAPEShoamKAKyBNQ",
+        "href": "https://platform.whereismytransport.com/api/stops/4TGxE9vAPEShoamKAKyBNQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bahadura",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.14987,
+                21.09986
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "ctThpwSKlk-i0KmKAKyCcw",
+        "href": "https://platform.whereismytransport.com/api/stops/ctThpwSKlk-i0KmKAKyCcw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bahadura Fata",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.14911,
+                21.10041
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "xq1XmqBEV0GNJKmKAKyA0g",
+        "href": "https://platform.whereismytransport.com/api/stops/xq1XmqBEV0GNJKmKAKyA0g",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bahadurabata",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.14578,
+                21.10319
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "zowkP1EzW06HUamKAKyCEQ",
+        "href": "https://platform.whereismytransport.com/api/stops/zowkP1EzW06HUamKAKyCEQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Baidyanath Bhavan",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.0959,
+                21.13669
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "o1f8ph5OZU-p56mKAKx-Tg",
+        "href": "https://platform.whereismytransport.com/api/stops/o1f8ph5OZU-p56mKAKx-Tg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Baidyanath Chowk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09675,
+                21.13426
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "1CDEZblJxEWER6mKAQIKtg",
+        "href": "https://platform.whereismytransport.com/api/stops/1CDEZblJxEWER6mKAQIKtg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Baidyanath Square",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09645,
+                21.1355
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "UjI_95tPRUqUwqmKAQIKyQ",
+        "href": "https://platform.whereismytransport.com/api/stops/UjI_95tPRUqUwqmKAQIKyQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bailwada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.03792,
+                21.26184
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "ce41oDMAkEymfKmLAQtlkg",
+        "href": "https://platform.whereismytransport.com/api/stops/ce41oDMAkEymfKmLAQtlkg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bajaj Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06288,
+                21.12943
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "MMxn5TdnfEmF3qmKAKyE8Q",
+        "href": "https://platform.whereismytransport.com/api/stops/MMxn5TdnfEmF3qmKAKyE8Q",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bajar Chouk",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.03205,
+                21.11609
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "A-6mp9Dga0yYAamKAQIK0w",
+        "href": "https://platform.whereismytransport.com/api/stops/A-6mp9Dga0yYAamKAQIK0w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bal Hanuman Mandir",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.10809,
+                21.12331
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "-R4xQLbhz0CFK6mKAQIK1w",
+        "href": "https://platform.whereismytransport.com/api/stops/-R4xQLbhz0CFK6mKAQIK1w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Balaji",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.01124,
+                21.11514
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "qIPa6pyY00OVCKmKAQIK6g",
+        "href": "https://platform.whereismytransport.com/api/stops/qIPa6pyY00OVCKmKAQIK6g",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Balaji Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.10371,
+                21.11065
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "8NVDxcheXUSvC6mKAKyD3g",
+        "href": "https://platform.whereismytransport.com/api/stops/8NVDxcheXUSvC6mKAKyD3g",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Balaji Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.10422,
+                21.11386
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "R0gtRsxp6UiMXamKAKx_2g",
+        "href": "https://platform.whereismytransport.com/api/stops/R0gtRsxp6UiMXamKAKx_2g",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Balak Naath",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11826,
+                21.1989
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "pJzBWkAcqUexR6mKAQIK7w",
+        "href": "https://platform.whereismytransport.com/api/stops/pJzBWkAcqUexR6mKAQIK7w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Balakhnaath",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.11746,
+                21.19622
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "WB03AuwFLUSxI6mKAKyADQ",
+        "href": "https://platform.whereismytransport.com/api/stops/WB03AuwFLUSxI6mKAKyADQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bandar Pura",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.95681,
+                21.07396
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "U1r3twfLJkGRzqmKAKx_Ag",
+        "href": "https://platform.whereismytransport.com/api/stops/U1r3twfLJkGRzqmKAKx_Ag",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Banty Honda Service Point",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.16438,
+                21.16377
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "4xg_FqZxTEKH5KmKAQIK8w",
+        "href": "https://platform.whereismytransport.com/api/stops/4xg_FqZxTEKH5KmKAQIK8w",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Barakholi",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.06269,
+                21.08265
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "wY8crIbjhUS1MKmKAKx9Eg",
+        "href": "https://platform.whereismytransport.com/api/stops/wY8crIbjhUS1MKmKAKx9Eg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bardha",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.98919,
+                20.91093
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "gmxYCZiQ0kiy06mKAKyBlw",
+        "href": "https://platform.whereismytransport.com/api/stops/gmxYCZiQ0kiy06mKAKyBlw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bardha Road",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.9898,
+                20.91143
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "DsS5Q8E4EUW_SKmKAKyAlQ",
+        "href": "https://platform.whereismytransport.com/api/stops/DsS5Q8E4EUW_SKmKAKyAlQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bargadge Nagar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.02216,
+                21.12004
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "BR4r1sGp1EuvgKmKAKx9IA",
+        "href": "https://platform.whereismytransport.com/api/stops/BR4r1sGp1EuvgKmKAKx9IA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bejan Bagh",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09215,
+                21.16836
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "LnTKCsLx8UeJM6mKAQILBg",
+        "href": "https://platform.whereismytransport.com/api/stops/LnTKCsLx8UeJM6mKAQILBg",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Beltarodi",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.07764,
+                21.07277
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "AJLshD3ZyEWm_6mKAQILFA",
+        "href": "https://platform.whereismytransport.com/api/stops/AJLshD3ZyEWm_6mKAQILFA",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Besa T-Point",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.08161,
+                21.08947
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "zDsGMZNBf06cG6mKAKx_MQ",
+        "href": "https://platform.whereismytransport.com/api/stops/zDsGMZNBf06cG6mKAKx_MQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Besaa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09705,
+                21.08491
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "UD3lHe0kBUmaOamKAQILGQ",
+        "href": "https://platform.whereismytransport.com/api/stops/UD3lHe0kBUmaOamKAQILGQ",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bessa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.0957,
+                21.08559
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    },
+    {
+        "id": "6q1iQ6cGmEaqEqmKAKyEsw",
+        "href": "https://platform.whereismytransport.com/api/stops/6q1iQ6cGmEaqEqmKAKyEsw",
+        "agency": {
+            "id": "fC81DfG4yEC1SKmKAKxXJQ",
+            "href": "https://platform.whereismytransport.com/api/agencies/fC81DfG4yEC1SKmKAKxXJQ",
+            "name": "NMC Buses",
+            "culture": "en"
+        },
+        "name": "Bessa Ghat",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                79.09638,
+                21.08831
+            ]
+        },
+        "modes": [
+            "Bus"
+        ]
+    }
+]

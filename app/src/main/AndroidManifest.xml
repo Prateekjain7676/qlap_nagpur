@@ -95,7 +95,12 @@
         <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.fleet_last_mile" />
         <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.last_mile_2" />
         <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.fleet_last_mile_3" />
-        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.last_mile_increase_fleet"></activity>
+        <activity android:name=".Registration.Main_application.Admin.Fragments.fleet_managment.last_mile.last_mile_increase_fleet" />
+        <activity android:name=".Registration.Main_application.Rider.Fragments.Book_ride.Book_ride_2_lastmile" />
+        <activity android:name=".Registration.Main_application.Rider.Fragments.Book_ride.Book_ride_3_last" />
+        <activity
+            android:name=".Registration.Main_application.Rider.Fragments.Book_ride.ride_taxi.nagpur_book_ride_2"
+            android:label="@string/title_activity_nagpur_book_ride_2"></activity>
     </application>
 
 </manifest>

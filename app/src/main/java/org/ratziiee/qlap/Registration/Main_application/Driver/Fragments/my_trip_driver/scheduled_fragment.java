@@ -40,31 +40,31 @@ public class scheduled_fragment extends Fragment {
     private void init_list()
     {
         model_my_trip m=new model_my_trip();
-        m.setStation_name("To Kohat Enclave Metro Station");
+        m.setStation_name("To Prop. Sitabuldi Metro Station");
         m.setDate("");
         m.setTime("Arrival Time at Station : 9: 00 AM");
         list.add(m);
 
         model_my_trip m1=new model_my_trip();
-        m1.setStation_name("From Kohat Enclave Metro Station");
+        m1.setStation_name("From Bole Petrol Pump Bus Stand");
         m1.setDate("");
         m1.setTime("Departure Time from Station : 11: 00 AM");
         list.add(m1);
 
         model_my_trip m2=new model_my_trip();
-        m2.setStation_name("To Kohat Enclave Metro Station");
+        m2.setStation_name("To Jhansi Rani Square Metro station");
         m2.setDate("");
         m2.setTime("Arrival Time at Station : 2: 00 PM");
         list.add(m2);
 
         model_my_trip m3=new model_my_trip();
-        m3.setStation_name("From Kohat Enclave Metro Station");
+        m3.setStation_name("From Dpeth Bus Stand");
         m3.setDate("");
         m3.setTime("Departure Time from Station : 4: 00 PM");
         list.add(m3);
 
         model_my_trip m4=new model_my_trip();
-        m4.setStation_name("To Kohat Enclave Metro Station");
+        m4.setStation_name("To Khurana Bus Stand");
         m4.setDate("");
         m4.setTime("Arrival Time at Station : 6: 00 PM");
         list.add(m4);

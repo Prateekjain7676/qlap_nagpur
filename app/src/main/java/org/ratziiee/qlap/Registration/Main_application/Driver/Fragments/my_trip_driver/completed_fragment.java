@@ -39,31 +39,31 @@ public class completed_fragment extends Fragment {
     private void init_list()
     {
         model_my_trip m=new model_my_trip();
-        m.setStation_name("To Kohat Enclave Metro Station");
+        m.setStation_name("To Khurana Bus Stand");
         m.setDate("Date of Journey : 26th August 2018");
         m.setTime("Arrival Time : 8: 15 PM");
         list.add(m);
 
         model_my_trip m1=new model_my_trip();
-        m1.setStation_name("From Kohat Enclave Metro Station");
+        m1.setStation_name("From Dpeth Bus Stand");
         m1.setDate("Date of Journey : 26th August 2018");
         m1.setTime("Arrival Time : 6: 15 PM");
         list.add(m1);
 
         model_my_trip m2=new model_my_trip();
-        m2.setStation_name("To Kohat Enclave Metro Station");
+        m2.setStation_name("To Prop. Sitabuldi Metro Station");
         m2.setDate("Date of Journey : 26th August 2018");
         m2.setTime("Arrival Time : 6: 15 PM");
         list.add(m2);
 
         model_my_trip m3=new model_my_trip();
-        m3.setStation_name("From Kohat Enclave Metro Station");
+        m3.setStation_name("From Jhansi Rani Square Metro station");
         m3.setDate("Date of Journey : 26th August 2018");
         m3.setTime("Arrival Time : 6: 15 PM");
         list.add(m3);
 
         model_my_trip m4=new model_my_trip();
-        m4.setStation_name("To Kohat Enclave Metro Station");
+        m4.setStation_name("To Bole Petrol Pump Bus Stand");
         m4.setDate("Date of Journey : 26th August 2018");
         m4.setTime("Arrival Time : 6: 15 PM");
         list.add(m4);

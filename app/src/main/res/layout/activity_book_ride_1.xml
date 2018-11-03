@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reach a Metro Station"
+        android:text="Reach a Metro/Bus Station"
         android:textColor="@color/text_color"
         android:textAlignment="center"
         android:textSize="25dp"/>
@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/text_color"
                 android:id="@+id/btn_maps"
-                android:text="Chose on Map"/>
+                android:text="Choose on Map"/>
         </LinearLayout>
 
     <View
@@ -64,14 +64,20 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Select your Destination Metro Station"
+                android:text="Select your Destination Metro/Bus Station"
                 android:textColor="@color/black"
                 android:textSize="18dp"/>
 
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="20dp"
-                android:id="@+id/spn_destination_metro" />
+                android:id="@+id/spn_destination_metro"
+                android:visibility="visible"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="PH-71, Jaripatka, Nagpur"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -79,6 +85,7 @@
                 android:textColor="@color/text_color"
                 android:layout_marginTop="10dp"
                 android:id="@+id/tv_nearest_station"
+                android:visibility="visible"
                 android:text="Suggest Me based on my current location"/>
         </LinearLayout>
 

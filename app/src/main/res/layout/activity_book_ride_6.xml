@@ -61,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="17dp"
-            android:text="23A HP Block , Pitampura, Delhi"
+            android:text="Chitnavis Centre"
             android:textColor="@color/black"
             />
         </LinearLayout>
@@ -86,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
-                android:text="Kohat Enclave Metro Station"
+                android:text="Giripeth Post Office"
                 android:textColor="@color/black"
                 />
         </LinearLayout>
@@ -111,7 +111,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
-                android:text="8:10 AM , 15 August 2018"
+                android:text="8:10 AM , 02 November 2018"
                 android:textColor="@color/black"
                 />
         </LinearLayout>
@@ -136,7 +136,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
-                android:text="Auto Rickshaw"
+                android:text="E-Rickshaw"
                 android:textColor="@color/black"
                 />
         </LinearLayout>
@@ -161,7 +161,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="17dp"
-                android:text="₹ 25"
+                android:text="₹5"
                 android:textColor="@color/black"
                 />
         </LinearLayout>

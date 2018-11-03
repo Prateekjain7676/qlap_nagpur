@@ -1,18 +1,14 @@
 package org.ratziiee.qlap.Registration.Main_application.Admin;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 
 import org.ratziiee.qlap.R;
@@ -21,6 +17,7 @@ import org.ratziiee.qlap.Registration.Main_application.Admin.Fragments.Rider.fra
 import org.ratziiee.qlap.Registration.Main_application.Admin.Fragments.analysis.frag_analysis;
 import org.ratziiee.qlap.Registration.Main_application.Admin.Fragments.fleet_managment.frag_fleet_management;
 import org.ratziiee.qlap.Registration.Main_application.Admin.Fragments.kpi.frag_kpi;
+import org.ratziiee.qlap.Registration.Main_application.Admin.Fragments.trips.frag_trips;
 
 public class Admin extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -69,7 +66,7 @@ public class Admin extends AppCompatActivity
             transition(new frag_rider());
 
         } else if (id == R.id.nav_trips) {
-            transition(new frag_driver());
+            transition(new frag_trips());
 
         } else if (id == R.id.nav_kpi) {
             transition(new frag_kpi());

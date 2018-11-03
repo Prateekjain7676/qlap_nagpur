@@ -34,7 +34,7 @@ public class Pick_up_point_mapbox extends AppCompatActivity implements OnMapRead
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick_up_point_mapbox);
 
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+        // Obtain the SupportMapFragment and get notified when the hmap is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -70,8 +70,8 @@ public class Pick_up_point_mapbox extends AppCompatActivity implements OnMapRead
         mMap = googleMap;
 
 
-            mMap.addMarker(new MarkerOptions().position(new LatLng(28.713538, 77.120324)));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.713538, 77.120324), 15.0f));
+            mMap.addMarker(new MarkerOptions().position(new LatLng(21.1481026, 79.0701773)));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(21.1481026, 79.0701773), 15.0f));
 
     }
 

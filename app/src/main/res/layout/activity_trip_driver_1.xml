@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/text_color"
             android:textSize="20dp"
-            android:text="From Kohat Enclave Metro Station"/>
+            android:text="From Jhansi Rani Square Metro station"/>
 
         <View
             android:layout_width="match_parent"

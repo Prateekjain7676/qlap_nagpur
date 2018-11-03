@@ -7,12 +7,36 @@
 
     <include layout="@layout/ini_toolbar"
         android:id="@+id/toolbar"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="हिंदी"
+        android:textAlignment="textEnd"
+        android:textColor="@color/text_color"
+        android:textSize="18dp"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/tv_hindi"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:textAlignment="textEnd"
+        android:textColor="@color/text_color"
+        android:textSize="18dp"
+        android:visibility="gone"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/tv_eng"
+        android:padding="5dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registration"
         android:textSize="25dp"
-        android:layout_below="@+id/toolbar"
+        android:layout_below="@+id/tv_hindi"
         android:textColor="#1d4a9a"
         android:textAlignment="center"
         android:id="@+id/top"/>

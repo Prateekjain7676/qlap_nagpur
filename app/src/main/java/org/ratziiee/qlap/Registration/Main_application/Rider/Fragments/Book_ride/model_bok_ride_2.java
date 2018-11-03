@@ -21,4 +21,14 @@ public class model_bok_ride_2 {
     }
 
     String time_2;
+
+    public String getAway_text() {
+        return away_text;
+    }
+
+    public void setAway_text(String away_text) {
+        this.away_text = away_text;
+    }
+
+    String away_text;
 }

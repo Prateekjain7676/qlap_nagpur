@@ -8,7 +8,6 @@ import android.util.Log;
 import org.ratziiee.qlap.Registration.Main_application.Database.models.model_station_details;
 
 import java.util.ArrayList;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 public class nearest_metro_Comparison {
 
@@ -38,6 +37,7 @@ public class nearest_metro_Comparison {
             temp.setLatitude(Double.valueOf(m.getLatitude()));
             temp.setLongitude(Double.valueOf(m.getLongitude()));
 
+
             Log.d(TAG, "return_values: ");
             all_loc.add(temp);
         }
@@ -45,11 +45,12 @@ public class nearest_metro_Comparison {
         for(Location loc:all_loc)
         {
             double distance_in_mtr=current_location.distanceTo(loc);
-            if(distance_in_mtr<=4000)
+            if(distance_in_mtr<=distance_in_meters)
             {
                 return_values.add(loc);
             }
         }
+
 
         return return_values;
 

@@ -25,7 +25,7 @@
         android:textSize="18dp"
         android:layout_margin="15dp"
         android:textAlignment="center"
-        android:text="You have successfully reserved a seat in Mini- Bus destined to Kapil Vihar Metro Station."/>
+        android:text="You have successfully reserved a seat in E-Rikshaw destined to Bole Petrol Pump Bus Stand."/>
 
     <TextView
         android:layout_width="match_parent"
@@ -78,11 +78,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="DL 2C 4899"
+                android:text="MH 2C 4899"
                 android:textAlignment="center"
                 android:textColor="@color/text_color"
                 android:textSize="18dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"/>
         </LinearLayout>
         <View
             android:layout_width="match_parent"
@@ -98,7 +98,7 @@
             android:textAlignment="center"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:text="₹ 35 has been deducted from your Metro Card."/>
+            android:text="₹5 has been deducted from your Common Mobility Card."/>
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -128,7 +128,7 @@
             android:layout_marginTop="5dp"
             android:id="@+id/tv_metro_card_recharge"
             android:layout_marginStart="15sp"
-            android:text="Recharge Metro Card"/>
+            android:text="Recharge Common Mobility Card"/>
 </LinearLayout>
     </LinearLayout>
     </ScrollView>

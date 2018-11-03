@@ -27,7 +27,7 @@ public class adapter_driver extends RecyclerView.Adapter<adapter_driver.MyViewHo
         this.context=context;
         this.uid=i;
 
-        Log.d("size", "adapter_driver: "+list.size());
+        Log.d("size", "adapter_rider: "+list.size());
     }
     @NonNull
     @Override
@@ -46,6 +46,23 @@ public class adapter_driver extends RecyclerView.Adapter<adapter_driver.MyViewHo
         h.tv_sno.setText(m.getSno());
         h.tv_name.setText(m.getDriver_name());
         h.tv_rating.setText(m.getRider_rating());
+        Log.d("", "onBindViewHolder: "+m.getMode());
+        if(m.getMode().equalsIgnoreCase("auto"))
+        {
+            h.iv_mode.setBackgroundResource(R.drawable.auto_selected);
+        }
+        else  if(m.getMode().equalsIgnoreCase("bus"))
+        {
+            h.iv_mode.setBackgroundResource(R.drawable.unselect_bus);
+        }
+        else  if(m.getMode().equalsIgnoreCase("rikshaw"))
+        {
+            h.iv_mode.setBackgroundResource(R.drawable.unselect_rikshaw);
+        }
+        else  if(m.getMode().equalsIgnoreCase("cab"))
+        {
+            h.iv_mode.setBackgroundResource(R.drawable.unselect_taxi);
+        }
 
 
     }

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
 import org.ratziiee.qlap.Registration.Main_application.Database.models.model_station_details;
 
@@ -76,7 +75,8 @@ public class qlap_database extends SQLiteOpenHelper {
         }
     }
 
-    public ArrayList<model_station_details> getStationsDetails(){
+    public ArrayList<model_station_details> getStationsDetails()
+    {
         ArrayList<model_station_details> station_details=new ArrayList<>();
         Cursor dbCursor = db.query(TABLE_NAME_METRO_STATION_DATA, null, null, null, null, null, null);
         dbCursor.moveToFirst();

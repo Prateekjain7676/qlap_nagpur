@@ -106,7 +106,7 @@ public class heatMap extends FragmentActivity implements OnMapReadyCallback {
         HeatmapTileProvider provider_near_rohini_west = new HeatmapTileProvider.Builder().data(list_near_rohini_west).gradient(grad_near_rohini_west).build();
         // Add a tile overlay to the map, using the heat map tile provider.
         mMap.addTileOverlay(new TileOverlayOptions().tileProvider(provider_near_rohini_west));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(28.713617, 77.118228),14f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(21.1414848, 79.0793786),14f));
     }
     /**
      * Read the data (locations of police stations) from raw resources.
@@ -114,10 +114,10 @@ public class heatMap extends FragmentActivity implements OnMapReadyCallback {
     private ArrayList<LatLng> rohini_east()  {
 
         ArrayList<LatLng> list = new ArrayList<LatLng>();
-        LatLng l1=new LatLng(28.707422, 77.125755);
-        LatLng l2=new LatLng(28.707479, 77.126013);
-        LatLng l3=new LatLng(28.707451, 77.125830);
-        LatLng l4=new LatLng(28.707375, 77.125959);
+        LatLng l1=new LatLng(21.1414848, 79.0793786);
+        LatLng l2=new LatLng(21.141635, 79.079196);
+        LatLng l3=new LatLng(21.141715, 79.079169);
+        LatLng l4=new LatLng(21.141715, 79.079593);
 
         list.add(l1);
         list.add(l2);
@@ -132,10 +132,10 @@ public class heatMap extends FragmentActivity implements OnMapReadyCallback {
     private ArrayList<LatLng> rohini_west()  {
 
         ArrayList<LatLng> list = new ArrayList<LatLng>();
-        LatLng l1=new LatLng(28.714753, 77.115209);
-        LatLng l2=new LatLng(28.714649, 77.115359);
-        LatLng l3=new LatLng(28.714621, 77.115132);
-        LatLng l4=new LatLng(28.714794, 77.115475);
+        LatLng l1=new LatLng(21.1416140, 79.0827186);
+        LatLng l2=new LatLng(21.141614, 79.082719);
+        LatLng l3=new LatLng(21.141924, 79.083073);
+        LatLng l4=new LatLng(21.141674, 79.082848);
 
         list.add(l1);
         list.add(l2);
@@ -150,10 +150,10 @@ public class heatMap extends FragmentActivity implements OnMapReadyCallback {
     private ArrayList<LatLng> pitampura()  {
 
         ArrayList<LatLng> list = new ArrayList<LatLng>();
-        LatLng l1=new LatLng(28.703095, 77.132141);
-        LatLng l2=new LatLng(28.702939, 77.132329);
-        LatLng l3=new LatLng(28.702836, 77.132530);
-        LatLng l4=new LatLng(28.702704, 77.132496);
+        LatLng l1=new LatLng(21.1462179, 79.0697572 );
+        LatLng l2=new LatLng(21.146278, 79.069510);
+        LatLng l3=new LatLng(21.146318, 79.069392);
+        LatLng l4=new LatLng(21.146368, 79.069113);
 
         list.add(l1);
         list.add(l2);
@@ -168,16 +168,15 @@ public class heatMap extends FragmentActivity implements OnMapReadyCallback {
     private ArrayList<LatLng> near_rohini_east()  {
 
         ArrayList<LatLng> list = new ArrayList<LatLng>();
-        LatLng l1=new LatLng(28.709316, 77.130280);
-        LatLng l2=new LatLng(28.709095, 77.130364);
-        LatLng l3=new LatLng(28.708933, 77.130700);
-        LatLng l4=new LatLng(28.708977, 77.130297);
+        LatLng l1=new LatLng(21.1481, 79.0702);
+        LatLng l2=new LatLng(21.148025, 79.070071);
+        LatLng l3=new LatLng(21.147960, 79.070393);
+        LatLng l4=new LatLng(21.147944, 79.070214);
 
         list.add(l1);
         list.add(l2);
         list.add(l3);
         list.add(l4);
-
 
 
         return list;
@@ -187,10 +186,10 @@ public class heatMap extends FragmentActivity implements OnMapReadyCallback {
     private ArrayList<LatLng> near_rohini_west()  {
 
         ArrayList<LatLng> list = new ArrayList<LatLng>();
-        LatLng l1=new LatLng(28.711937, 77.114062);
-        LatLng l2=new LatLng(28.712172, 77.114347);
-        LatLng l3=new LatLng(28.712172, 77.113860);
-        LatLng l4=new LatLng(28.712290, 77.114364);
+        LatLng l1=new LatLng(21.1416140, 79.0827186);
+        LatLng l2=new LatLng(21.139088, 79.073522);
+        LatLng l3=new LatLng(21.138928, 79.073415);
+        LatLng l4=new LatLng(21.138738, 79.073544);
 
         list.add(l1);
         list.add(l2);
@@ -207,13 +206,14 @@ public class heatMap extends FragmentActivity implements OnMapReadyCallback {
 
 
 
-            Color.rgb(255,192,0), //e rikshaw yellowish
+
             Color.rgb(237,125,49) ,//auto orange
-            Color.rgb(112,173,71) // minibus green
+            Color.rgb(112,173,71), // minibus green
+            Color.rgb(255,192,0) //e rikshaw yellowish
     };
 
     float[] startpoints_rohini_east = {
-            0.1F, 0.2F, 0.5F
+            0.1F, 0.2F, 1F
     };
 
     int[] colors_rohini_west = {

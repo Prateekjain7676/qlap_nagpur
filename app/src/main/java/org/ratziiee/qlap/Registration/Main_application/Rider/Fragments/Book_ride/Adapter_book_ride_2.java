@@ -9,14 +9,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import org.ratziiee.qlap.R;
 
 import java.util.ArrayList;
-import java.util.zip.Inflater;
 
 public class Adapter_book_ride_2 extends RecyclerView.Adapter<Adapter_book_ride_2.MyViewHolder> {
 
@@ -45,6 +43,7 @@ public class Adapter_book_ride_2 extends RecyclerView.Adapter<Adapter_book_ride_
         model_bok_ride_2 m=list.get(i);
         h.tv_time_1.setText(m.getTime_1());
         h.tv_time_2.setText(m.getTime_2());
+        h.tv_away.setText(m.away_text);
 
         Log.d("", "onBindViewHolder: "+m.getTime_1());
 
@@ -67,7 +66,7 @@ public class Adapter_book_ride_2 extends RecyclerView.Adapter<Adapter_book_ride_
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
-        TextView tv_time_1,tv_time_2;
+        TextView tv_time_1,tv_time_2,tv_away;
         LinearLayout lay_main;
         public MyViewHolder(@NonNull View v)
         {
@@ -75,6 +74,7 @@ public class Adapter_book_ride_2 extends RecyclerView.Adapter<Adapter_book_ride_
             tv_time_1=v.findViewById(R.id.tv_time_1);
             tv_time_2=v.findViewById(R.id.tv_time_2);
             lay_main=v.findViewById(R.id.lay_main);
+            tv_away=v.findViewById(R.id.tv_away);
         }
     }
 }

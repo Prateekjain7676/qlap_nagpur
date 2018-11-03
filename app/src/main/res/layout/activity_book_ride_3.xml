@@ -37,7 +37,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:gravity="center_vertical"
-                android:text="c-1938 rohini east new delhi"/>
+                android:text="Chitnavis Center"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,7 +47,7 @@
                 android:id="@+id/tv_destination"
                 android:textColor="@color/black"
                 android:gravity="center_vertical"
-                android:text="23A HP Block,Pitampura,Delhi"/>
+                android:text="Giripeth Post Office"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20dp"
-            android:text="Auto Rikshaw Trip Details"/>
+            android:text="E-Rikshaw Trip Details"/>
 
         <View
             android:layout_width="match_parent"
@@ -173,7 +173,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Rs. 35"
+                android:text="Rs. 5"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:layout_weight="1"/>

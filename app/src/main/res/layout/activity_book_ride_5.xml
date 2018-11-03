@@ -25,7 +25,7 @@
             android:textAlignment="center"
             android:textColor="@color/text_color"
             android:textStyle="bold"
-            android:text="Auto Rickshaw Ride in Progress"/>
+            android:text="E-Rickshaw Ride in Progress"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:textSize="14dp"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:text="You will reach Rohini East Metro Station by 6:40 PM"/>
+            android:text="You will reach Bole Petrol Pump Bus Stand by 6:40 PM"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -59,8 +59,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:text="987654321"/>
-
-
+            
         </LinearLayout>
     </LinearLayout>
 

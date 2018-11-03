@@ -7,14 +7,16 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-    <string name="success_message_1">You have successfully registered. Your Metro Card Number is:</string>
-    <string name="success_message_2">Payments for your rides are done through your Metro Card Balance.</string>
+    <string name="success_message_1">You have successfully registered. Your Common Mobility Card Number is:</string>
+    <string name="success_message_2">Payments for your rides are done through your Common Mobility Card Balance.</string>
     <string name="success_message_3">Now, you can recharge your card through UPI enabled Digital Wallets! </string>
     <string-array name="metro_station_list">
-        <item name="Kohat">Select Select</item>
-        <item name="Kohat">Kohat</item>
-        <item name="NSp">Netaji Subhash Place</item>
-        <item name="Rohini">Rohini</item>
+        <item name="Kohat">Please Select</item>
+        <item name="Kohat">Bole Petrol Pump Bus Stand</item>
+        <item name="NSp">Dpeth Bus Stand</item>
+        <item name="Rohini">Khurana Bus Stand</item>
+        <item name="Roh">Jhansi Rani Square Metro station</item>
+        <item name="Rohi">Prop. Sitabuldi Metro Station</item>
     </string-array>
     <string name="title_activity_pick_up_point">Map</string>
     <string-array name="mode_list">
@@ -58,10 +60,12 @@
     </string-array>
 
     <string-array name="metro_station_list_last">
-        <item name="Kohat">Select your Origin Metro Station</item>
-        <item name="Kohat">Kohat</item>
-        <item name="NSp">Netaji Subhash Place</item>
-        <item name="Rohini">Rohini</item>
+        <item name="Kohat">Select your Origin Metro/Bus Station</item>
+        <item name="Kohat">Bole Petrol Pump Bus Stand</item>
+        <item name="NSp">Dpeth Bus Stand</item>
+        <item name="Rohini">Khurana Bus Stand</item>
+        <item name="Roh">Jhansi Rani Square Metro station</item>
+        <item name="Rohi">Prop. Sitabuldi Metro Station</item>
     </string-array>
     <string name="title_activity_choose_on_map_bookride1">Map</string>
     <string name="title_activity_admin">Admin</string>
@@ -86,10 +90,10 @@
 
     <string-array name="metro_lines">
         <item>Please Select</item>
-        <item>Red Line</item>
-        <item>Green Line</item>
-        <item>Voilet Line</item>
-        <item>Yellow Line</item>
+        <item>North-South Corridor</item>
+        <item>East-West Corridor</item>
+        <item>Bus Stops</item>
+
     </string-array>
 
     <string-array name="trip_type">
@@ -107,5 +111,137 @@
         <item>Day Session</item>
         <item>Night Session</item>
     </string-array>
+
+    <string name="hindi_name">अपना नाम दर्ज करें</string>
+    <string name="hindi_mobile">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="hindi_email">अपना ईमेल पता दर्ज करें</string>
+    <string name="hindi_vehice_no">अपना वाहन नंबर दर्ज करें</string>
+    <string name="hindi_registration">पंजीकरण</string>
+    <string name="hindi_welcome_driver">आपका स्वागत है चालक</string>
+    <string name="hindi_address_rider">अपना पता दर्ज करें</string>
+    <string name="hindi_metro_card">अपना मेट्रो कार्ड नंबर दर्ज करें</string>
+
+    <string name="eng_name">Enter your Name</string>
+    <string name="eng_mobile">Enter your Mobile Number</string>
+    <string name="eng_email">Enter your Email Address</string>
+    <string name="eng_vehice_no">Enter your Vehicle number</string>
+    <string name="eng_registration">Registration</string>
+    <string name="eng_welcome_driver">Welcome Driver</string>
+    <string name="eng_address_rider">Enter your Home Address</string>
+    <string name="eng_metro_card">Enter your Common Mobility Card Number</string>
+
+
+    <string-array name="hindi_vehicle_category">
+        <item name="Kohat">अपना वाहन श्रेणी दर्ज करें</item>
+        <item name="Kohat">Auto</item>
+        <item name="NSp">E-Rikshaw</item>
+        <item name="Rohini">Mini Bus</item>
+        <item name="Rohini">Cab</item>
+
+    </string-array>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_nagpur_book_ride_2">Map</string>
+
+    <string-array name="new_station_list">
+        <item>Please Select</item>
+        <item>Giripeth Post Office</item>
+        <item>10 Number Puliya</item>
+        <item>7 No</item>
+        <item>8 Mile, Waddhamna</item>
+        <item>8th Mile</item>
+        <item>Aaradhna</item>
+        <item>Aarogya Sampada Hospital and Nursing Home</item>
+        <item>Aashish Traders</item>
+        <item>Abhyanka Nagar</item>
+        <item>Acc Chauk</item>
+        <item>Achraj Tower</item>
+        <item>Adamshah</item>
+        <item>Adivasi</item>
+        <item>Agrasen Square</item>
+        <item>Air Force Airport</item>
+        <item>Air Force Colony</item>
+        <item>Ajanta Marvel</item>
+        <item>Ajni</item>
+        <item>Akashvani Chowk</item>
+        <item>Akashvani Chowk</item>
+        <item>Akashvani Square</item>
+        <item>Akashwani Square</item>
+        <item>Akath Matha</item>
+        <item>Akath Matha 2</item>
+        <item>Akath Matha Nagar</item>
+        <item>Alankar</item>
+        <item>Alankar Chouk</item>
+        <item>Alankar Chowk</item>
+        <item>Alesur</item>
+        <item>Amar Nagar</item>
+        <item>Ambazari</item>
+        <item>Ambazari T Point</item>
+        <item>Ambedakar Chowk</item>
+        <item>Anand Nagar</item>
+        <item>Anand Nagar</item>
+        <item>Anand Nagar 2</item>
+        <item>Ananya Medical</item>
+        <item>Anjuman High School</item>
+        <item>Anna Mod</item>
+        <item>Ansh Bar</item>
+        <item>Arjun Park</item>
+        <item>Artava Nagari</item>
+        <item>Arthava Nagari</item>
+        <item>Aryan Restaurant</item>
+        <item>Asha Hospital</item>
+        <item>Asha Hospital</item>
+        <item>Ashirwad Nagar</item>
+        <item>Ashirwad Nagar</item>
+        <item>Ashok Chowk Gate</item>
+        <item>Ashok One</item>
+        <item>Ashok Shoes</item>
+        <item>Astavinayaka</item>
+        <item>Atlanta Computer Institute</item>
+        <item>Atlanta Computer Institute</item>
+        <item>Atul Lawn</item>
+        <item>Atul Lawn</item>
+        <item>Automotive Square</item>
+        <item>Awasthi Chowk</item>
+        <item>Awasthi Chowk</item>
+        <item>Axis Bank</item>
+        <item>Axis Bank</item>
+        <item>Ayachit Mandir</item>
+        <item>Ayodhya Nagar</item>
+        <item>Ayodhya Nagar</item>
+        <item>Baba Taj Chowk</item>
+        <item>Babbu Biryani</item>
+        <item>Babulkheda</item>
+        <item>Bada Tajbag</item>
+        <item>Bagham Bhag</item>
+        <item>Bahadura</item>
+        <item>Bahadura Fata</item>
+        <item>Bahadurabata</item>
+        <item>Baidyanath Bhavan</item>
+        <item>Baidyanath Chowk</item>
+        <item>Baidyanath Square</item>
+        <item>Bailwada</item>
+        <item>Bajaj Nagar</item>
+        <item>Bajar Chouk</item>
+        <item>Bal Hanuman Mandir</item>
+        <item>Balaji</item>
+        <item>Balaji Nagar</item>
+        <item>Balaji Nagar</item>
+        <item>Balak Naath</item>
+        <item>Balakhnaath</item>
+        <item>Bandar Pura</item>
+        <item>Banty Honda Service Point</item>
+        <item>Barakholi</item>
+        <item>Bardha</item>
+        <item>Bardha Road</item>
+        <item>Bargadge Nagar</item>
+        <item>Bejan Bagh</item>
+        <item>Beltarodi</item>
+        <item>Besa T-Point</item>
+        <item>Besaa</item>
+        <item>Bessa</item>
+        <item>Bessa Ghat</item>
+
+    </string-array>
+
 
 </resources>

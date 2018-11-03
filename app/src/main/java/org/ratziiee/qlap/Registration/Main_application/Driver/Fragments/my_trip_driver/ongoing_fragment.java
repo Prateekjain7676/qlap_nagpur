@@ -39,7 +39,7 @@ public class ongoing_fragment extends Fragment {
     private void init_list()
     {
         model_my_trip m=new model_my_trip();
-        m.setStation_name("From Kohat Enclave Metro Station");
+        m.setStation_name("From Jhansi Rani Square Metro station");
         m.setDate("");
         m.setTime("Departure Time from station : 7:00 AM");
         list.add(m);

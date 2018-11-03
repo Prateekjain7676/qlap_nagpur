@@ -21,7 +21,7 @@ public class tisba_analysis extends FragmentActivity implements OnMapReadyCallba
 
     private GoogleMap mMap;
     Spinner spn_tisba;
-    LatLng rohini_east=null,rohini_west=null,rithala=null,pitampura=null,nsp=null;
+    LatLng Dpeth =null, bole_petrol_pump =null, khurana_bus_stand =null, jhansi_rani_square =null, prop =null;
 
 
 
@@ -38,11 +38,11 @@ public class tisba_analysis extends FragmentActivity implements OnMapReadyCallba
         utils.change_status_bar_color(this,this);
 
         spn_tisba=findViewById(R.id.spn_tisba);
-        rohini_east=new LatLng(28.7077, 77.1259);
-        rohini_west=new LatLng(28.7149, 77.1154);
-        rithala=new LatLng(28.7208, 77.1072);
-        pitampura=new LatLng(28.7031, 77.1325);
-        nsp=new LatLng(28.6960, 77.1526);
+        Dpeth =new LatLng(21.1460919, 79.0693469);
+        bole_petrol_pump =new LatLng(21.1461800, 79.0680090);
+        khurana_bus_stand =new LatLng(21.1462179, 79.0697572);
+        jhansi_rani_square =new LatLng(21.1414848, 79.0793786);
+        prop =new LatLng(21.1416140, 79.0827186);
 
 
         spn_tisba.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -70,35 +70,35 @@ public class tisba_analysis extends FragmentActivity implements OnMapReadyCallba
 
     private void morning_Session()
     {
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(rohini_east,12f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Dpeth,12f));
         mMap.addMarker(new MarkerOptions()
-                .position(rithala)
+                .position(khurana_bus_stand)
                 .title("2.5")
-                .snippet("and snippet")
+                .snippet("Khurana Bus Stand")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(rohini_west)
+                .position(bole_petrol_pump)
                 .title("0.95")
-                .snippet("and snippet")
+                .snippet("Bole Petrol Pump Bus Stop")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(rohini_east)
+                .position(Dpeth)
                 .title("2.5")
-                .snippet("and snippet")
+                .snippet("Dpeth Bus Stop")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(pitampura)
+                .position(jhansi_rani_square)
                 .title("2.5")
-                .snippet("and snippet")
+                .snippet("Jhansi Rani Square Metro Station")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(nsp)
+                .position(prop)
                 .title("0.4")
-                .snippet("and snippet")
+                .snippet("Prop. Sitabuldi Metro Station")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
 
@@ -106,35 +106,35 @@ public class tisba_analysis extends FragmentActivity implements OnMapReadyCallba
 
     private void afternoon_Session()
     {
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(rohini_east,12f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Dpeth,12f));
         mMap.addMarker(new MarkerOptions()
-                .position(rithala)
+                .position(khurana_bus_stand)
                 .title("0.94")
-                .snippet("and snippet")
+                .snippet("Khurana Bus Stand")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(rohini_west)
+                .position(bole_petrol_pump)
                 .title("0.95")
-                .snippet("and snippet")
+                .snippet("Bole Petrol Pump Bus Stop")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(rohini_east)
+                .position(Dpeth)
                 .title("0.94")
-                .snippet("and snippet")
+                .snippet("Dpeth Bus Stop")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(pitampura)
+                .position(jhansi_rani_square)
                 .title("1.06")
-                .snippet("and snippet")
+                .snippet("Jhansi Rani Square Metro Station")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(nsp)
+                .position(prop)
                 .title("1.06")
-                .snippet("and snippet")
+                .snippet("Prop. Sitabuldi Metro Station")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
 
@@ -142,35 +142,35 @@ public class tisba_analysis extends FragmentActivity implements OnMapReadyCallba
 
     private void evening_Session()
     {
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(rohini_east,12f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Dpeth,12f));
         mMap.addMarker(new MarkerOptions()
-                .position(rithala)
+                .position(khurana_bus_stand)
                 .title("0.4")
-                .snippet("and snippet")
+                .snippet("Khurana Bus Stand")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(rohini_west)
+                .position(bole_petrol_pump)
                 .title("1.5")
-                .snippet("and snippet")
+                .snippet("Bole Petrol Pump Bus Stop")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(rohini_east)
+                .position(Dpeth)
                 .title("0.4")
-                .snippet("and snippet")
+                .snippet("Dpeth Bus Stop")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(pitampura)
+                .position(jhansi_rani_square)
                 .title("0.04")
-                .snippet("and snippet")
+                .snippet("Jhansi Rani Square Metro Station")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
 
         mMap.addMarker(new MarkerOptions()
-                .position(nsp)
+                .position(prop)
                 .title("2.5")
-                .snippet("and snippet")
+                .snippet("Prop. Sitabuldi Metro Station")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
 
@@ -192,7 +192,7 @@ public class tisba_analysis extends FragmentActivity implements OnMapReadyCallba
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(rohini_east,12f));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Dpeth,12f));
 
         // Add a marker in Sydney and move the camera
 

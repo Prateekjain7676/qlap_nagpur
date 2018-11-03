@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Rithala Fleet Size Management"
+            android:text="Fleet Size Management"
             android:textColor="@color/black"
             android:textSize="20dp"/>
 

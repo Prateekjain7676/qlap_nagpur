@@ -1,6 +1,7 @@
 package org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.Book_ride;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -8,22 +9,26 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
+import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.PolylineOptions;
+
 import org.ratziiee.qlap.R;
-import org.ratziiee.qlap.Registration.Main_application.Driver.Fragments.my_trip_driver.completed_fragment;
-import org.ratziiee.qlap.Registration.Main_application.Driver.Fragments.my_trip_driver.ongoing_fragment;
-import org.ratziiee.qlap.Registration.Main_application.Driver.Fragments.my_trip_driver.scheduled_fragment;
-import org.ratziiee.qlap.Registration.Main_application.Driver.Fragments.my_trips_fragment;
 import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.Book_ride.ride_taxi.ola;
 import org.ratziiee.qlap.Registration.Main_application.Rider.Fragments.Book_ride.ride_taxi.uber;
 import org.ratziiee.qlap.Registration.Utils.utils;
@@ -31,7 +36,7 @@ import org.ratziiee.qlap.Registration.Utils.utils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Book_ride_2 extends AppCompatActivity {
+public class Book_ride_2 extends AppCompatActivity implements OnMapReadyCallback {
 
     RecyclerView rv_book_ride_2;
     ArrayList<model_bok_ride_2> list;
@@ -40,6 +45,9 @@ public class Book_ride_2 extends AppCompatActivity {
     ScrollView lay_smart;
     String destination_address="";
     TextView tv_destination_address;
+    private GoogleMap mMap;
+    private ArrayList<LatLng> list_obtained;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,8 +60,20 @@ public class Book_ride_2 extends AppCompatActivity {
         utils.change_status_bar_color(this,this);
         tv_destination_address=findViewById(R.id.tv_destination_address);
 
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+        mapFragment.getView().setVisibility(View.GONE);
+
         destination_address=getIntent().getStringExtra("selected_station");
         tv_destination_address.setText(destination_address);
+        list_obtained=new ArrayList<>();
+        /*Intent intent = getIntent();
+        Bundle args = intent.getBundleExtra("bundle");
+        if(args.containsKey("bundle")) {
+            list_obtained = (ArrayList<LatLng>) args.getSerializable("list");
+        }
+*/
 
         main_content=findViewById(R.id.main_content);
         ViewPager viewPager = (ViewPager)findViewById(R.id.viewpager);
@@ -87,21 +107,25 @@ public class Book_ride_2 extends AppCompatActivity {
         model_bok_ride_2 m=new model_bok_ride_2();
         m.setTime_1("6:15 P.M");
         m.setTime_2("6.40 P.M");
+        m.setAway_text("Pickup : 100m away");
         list.add(m);
 
         model_bok_ride_2 m2=new model_bok_ride_2();
         m2.setTime_1("6:20 P.M");
         m2.setTime_2("6.50 P.M");
+        m2.setAway_text("Pickup : 80m away");
         list.add(m2);
 
         model_bok_ride_2 m3=new model_bok_ride_2();
         m3.setTime_1("6:30 P.M");
         m3.setTime_2("6.50 P.M");
+        m3.setAway_text("Pickup : 75m away");
         list.add(m3);
 
         model_bok_ride_2 m4=new model_bok_ride_2();
         m4.setTime_1("6:40 P.M");
         m4.setTime_2("7.00 P.M");
+        m4.setAway_text("Pickup : 70m away");
         list.add(m4);
 
         Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list,destination_address);
@@ -113,21 +137,25 @@ public class Book_ride_2 extends AppCompatActivity {
         model_bok_ride_2 m=new model_bok_ride_2();
         m.setTime_1("6:15 P.M");
         m.setTime_2("6.35 P.M");
+        m.setAway_text("Pickup : 100m away");
         list.add(m);
 
         model_bok_ride_2 m2=new model_bok_ride_2();
         m2.setTime_1("6:30 P.M");
         m2.setTime_2("6.50 P.M");
+        m2.setAway_text("Pickup : 80m away");
         list.add(m2);
 
         model_bok_ride_2 m3=new model_bok_ride_2();
         m3.setTime_1("6:45 P.M");
         m3.setTime_2("7.05 P.M");
+        m3.setAway_text("Pickup : 75m away");
         list.add(m3);
 
         model_bok_ride_2 m4=new model_bok_ride_2();
         m4.setTime_1("7:00 P.M");
         m4.setTime_2("7.20 P.M");
+        m4.setAway_text("Pickup : 70m away");
         list.add(m4);
 
         Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list,destination_address);
@@ -141,22 +169,26 @@ public class Book_ride_2 extends AppCompatActivity {
         list.clear();
         model_bok_ride_2 m=new model_bok_ride_2();
         m.setTime_1("6:30 P.M");
-        m.setTime_2("7.00 P.M");
+        m.setTime_2("6.33 P.M");
+        m.setAway_text("Pickup : 100m away");
         list.add(m);
 
         model_bok_ride_2 m2=new model_bok_ride_2();
         m2.setTime_1("7:00 P.M");
-        m2.setTime_2("7.30 P.M");
+        m2.setTime_2("7.03 P.M");
+        m2.setAway_text("Pickup : 80m away");
         list.add(m2);
 
         model_bok_ride_2 m3=new model_bok_ride_2();
-        m3.setTime_1("7:30 P.M");
-        m3.setTime_2("8.00 P.M");
+        m3.setTime_1("7:45 P.M");
+        m3.setTime_2("8.48 P.M");
+        m3.setAway_text("Pickup : 75m away");
         list.add(m3);
 
         model_bok_ride_2 m4=new model_bok_ride_2();
         m4.setTime_1("8:00 P.M");
-        m4.setTime_2("8.30 P.M");
+        m4.setTime_2("8.03 P.M");
+        m4.setAway_text("Pickup : 70m away");
         list.add(m4);
 
         Adapter_book_ride_2 adapter=new Adapter_book_ride_2(this,list,destination_address);
@@ -237,6 +269,7 @@ public class Book_ride_2 extends AppCompatActivity {
 
 
             Intent i=new Intent(Book_ride_2.this,Book_ride_3.class);
+            i.putExtra("destination","Giripeth Post Office");
             startActivity(i);
 
 
@@ -258,25 +291,41 @@ public class Book_ride_2 extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        this.mMap=googleMap;
+        if(list_obtained.size()>0)
+        {
+            googleMap.addPolyline(new PolylineOptions().addAll(list_obtained).color(getResources().getColor(R.color.black)));
+            zoom(list_obtained);
+            mMap.addMarker(new MarkerOptions().position(list_obtained.get(0)).title("First Mile"));
+            mMap.addMarker(new MarkerOptions().position(list_obtained.get(list_obtained.size()-1)).title("Last Mile"));
+        }
+    }
+
     static class Adapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragmentList = new ArrayList<>();
         private final List<String> mFragmentTitleList = new ArrayList<>();
 
-        public Adapter(FragmentManager manager) {
+        public Adapter(FragmentManager manager)
+        {
             super(manager);
         }
 
         @Override
-        public Fragment getItem(int position) {
+        public Fragment getItem(int position)
+        {
             return mFragmentList.get(position);
         }
 
         @Override
-        public int getCount() {
+        public int getCount()
+        {
             return mFragmentList.size();
         }
 
-        public void addFragment(Fragment fragment, String title) {
+        public void addFragment(Fragment fragment, String title)
+        {
             mFragmentList.add(fragment);
             mFragmentTitleList.add(title);
         }
@@ -285,5 +334,18 @@ public class Book_ride_2 extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             return mFragmentTitleList.get(position);
         }
+    }
+
+
+    private void zoom(List<LatLng> list)
+    {
+        LatLngBounds.Builder builder = new LatLngBounds.Builder();
+        for (LatLng latlng : list) {
+            builder.include(latlng);
+        }
+        LatLngBounds bounds = builder.build();
+        int padding = 200; // offset from edges of the hmap in pixels
+        CameraUpdate cu = CameraUpdateFactory.newLatLngBounds(bounds,padding);
+        mMap.animateCamera(cu);
     }
 }
